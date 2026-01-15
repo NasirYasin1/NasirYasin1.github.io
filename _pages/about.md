@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Nasir yasin"
+title: "Nasir Yasin"
 author_profile: true
 redirect_from: 
   - /about/
