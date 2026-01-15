@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Nasir's Ya"
+title: "Welcome to Nasir's website"
 author_profile: true
 redirect_from: 
   - /about/
