@@ -15,7 +15,7 @@ Education
 * M.S. Applied and Computational mathematics, Old Dominion University, 2025
 * Master Of science in Mathematics, COMSATS University Islamabad, 2021
 * B.S in MAthematics, International Islamic University Islamabad, 2018
-
+{% comment %}
 Work experience
 ======
 * Spring 2024: Academic Pages Collaborator
@@ -32,7 +32,7 @@ Work experience
   * GitHub University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
-
+{% endcomment %}
 {% comment %}
 Publications
 ======
@@ -41,12 +41,13 @@ Publications
  {% endfor %}</ul>
 {% endcomment %}
 
-
+{% comment %}
 Projects
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>  
+{% endcomment %}   
 {% comment %}
 Teaching
 ======
@@ -54,6 +55,8 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 {% endcomment %}  
+{% comment %}
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+{% endcomment %}
