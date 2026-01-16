@@ -42,7 +42,7 @@ Publications
 {% endcomment %}
 
 
-projects
+Projects
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
