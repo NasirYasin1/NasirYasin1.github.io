@@ -32,22 +32,6 @@ Work experience
   * COMSATS University Islamabad
   * Duties included: Tagging issues
   * Supervisor: Professor Git
-Projects
-======
-* Fall 2023 - Present : Graduate Teaching Assistant 
-  * Old Dmonion University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* April 2022- August 2023: Research Assistant
-  * Kyungpook National University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* January 2020 - April 2022: Research Assistant
-  * COMSATS University Islamabad
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 {% comment %}
 Work experience
 ======
