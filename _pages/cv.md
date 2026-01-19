@@ -15,11 +15,11 @@ Education
 * M.S. Applied and Computational mathematics, Old Dominion University, 2025
 * Master Of science in Mathematics, COMSATS University Islamabad, 2021
 * B.S in MAthematics, International Islamic University Islamabad, 2018
-{% comment %}
+
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
+* Fall 2023 - Present : Graduate Teaching Assistant 
+  * Old Dmonion University
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
@@ -32,7 +32,6 @@ Work experience
   * GitHub University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
-{% endcomment %}
 {% comment %}
 Work experience
 ======
