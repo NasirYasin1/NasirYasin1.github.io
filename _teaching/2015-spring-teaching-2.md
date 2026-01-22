@@ -1,8 +1,8 @@
 ---
 title: "Grauate Teaching Assistant"
 collection: teaching
-type: "Undergraduate course support"
-venue: "Old Dominion University"
+type: ""
+venue: "<strong>Old Dominion University</strong>"
 date: 2023-08-01
 location: "Norfolk, VA, USA"
 excerpt: |
