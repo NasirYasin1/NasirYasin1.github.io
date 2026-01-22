@@ -32,8 +32,8 @@ Work experience
   * COMSATS University Islamabad
   * Duties included: Tagging issues
   * Supervisor: Professor Git
-{% comment %}
-Work experience
+
+Projects
 ======
   - position: "Graduate Student & SI Leader"
     company: Old Dominion University
@@ -67,7 +67,7 @@ Work experience
       - "Performed numerical simulations using SRT-LBM method in Fortran"
       - "Post-processing and visualization using MATLAB and Tecplot"
       - "Contributed to HEC-funded computational fluid dynamics research"
-  {% endcomment %}
+  
 {% comment %}
 Publications
 ======
