@@ -26,8 +26,8 @@ main:
     url: /publications/
     url: https://scholar.google.com/citations?user=SXnHNu0AAAAJ
     
-  - title: "Conference and Seminars"
-    url: /Conference and Seminars/  
+  - title: "Talks"
+    url: /Talks/  
     
   # - title: "CV"
   #   url: /cv-json/
