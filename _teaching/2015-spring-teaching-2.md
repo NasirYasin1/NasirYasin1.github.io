@@ -6,7 +6,7 @@ venue: "<strong>Old Dominion University</strong>"
 date: 2023-08-01
 location: "Norfolk, VA, USA"
 excerpt: |
-  From Fall 2023, I have been working as a Supplemental Instruction (SI) Leader for undergraduate mathematics courses at Old Dominion University. In addition to SI sessions, I support students in the <strong>Applied Calculus Laboratory</strong> and the <strong>SMART Room</strong>, and provide <strong>online tutoring</strong> for undergraduate mathematics courses.
+  From Fall 2023, I have been working as a Supplemental Instruction (SI) Leader for undergraduate mathematics courses at Old Dominion University. In addition to SI sessions, I support students in the <strong>Applied Calculus Lab</strong> and the <strong>SMART Room</strong>, and provide <strong>online tutoring</strong> for undergraduate mathematics courses.
 
   Courses supported:
   - <strong>MATH-212</strong>: Calculus 
