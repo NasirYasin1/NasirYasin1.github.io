@@ -41,3 +41,17 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* Make avatar perfectly circular even if the source image is portrait */
+.author__avatar img {
+  width: 175px;
+  height: 175px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@media (max-width: 1023px) {
+  .author__avatar img {
+    width: 36px;
+    height: 36px;
+  }
+}
