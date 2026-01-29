@@ -41,31 +41,4 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* Perfect circular avatar everywhere (no tall oval) */
-.sidebar .author__avatar {
-  width: 170px !important;
-  height: 170px !important;
-  border-radius: 50% !important;
-  overflow: hidden !important;   /* important: clips image to circle */
-  margin: 0 auto 0.75rem !important;
-  border: 3px solid #e6e6e6 !important;
-}
 
-.sidebar .author__avatar img,
-.sidebar img.author__avatar {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: cover !important;
-  object-position: 50% 15% !important; /* move focus upward so hair stays */
-  border-radius: 0 !important;         /* wrapper does the rounding */
-  display: block !important;
-}
-
-/* Mobile */
-@media (max-width: 1023px) {
-  .sidebar .author__avatar {
-    width: 60px !important;
-    height: 60px !important;
-    border-width: 2px !important;
-  }
-}
