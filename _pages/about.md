@@ -16,6 +16,8 @@ In addition to research, I support undergraduate learning at ODU as a **Suppleme
 
 I’m always open to connecting with new people and learning about their work. If you’d like to discuss shared interests or explore a potential collaboration, feel free to reach out. I’m happy to chat about ideas, projects, or opportunities.
 
+I’m always open to connecting with new people and learning about their work. If you’d like to discuss shared interests or explore a potential collaboration, feel free to reach out.
+
 
 {% comment %}
 I am a graduate researcher in **Applied and Computational Mathematics** at **Old Dominion University (ODU), Norfolk, Virginia**, where I am currently pursuing my **Ph.D. (2025–Present)**. My work lies at the intersection of **scientific computing, numerical modeling, and machine learning**, with a focus on developing stable, efficient, and scalable computational methods for complex systems. My research interests include **algorithm development, numerical methods for PDEs, high-performance computing (HPC), data assimilation**, and **data-driven modeling**. 
