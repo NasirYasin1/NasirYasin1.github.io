@@ -77,7 +77,7 @@ Work experience
 
 Projects
 ======
-- **Entropy and Gradient Stable Scheme for Hyperbolic Burgers’ Equation** (Jan 2024–Present)
+- **Stable Scheme for Hyperbolic Burgers’ Equation** (Jan 2024–Present)
 - **Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems** (Dec 2023)
 - **Image Processing and Compression Using Multiple Algorithms** (Dec 2023)
 - **Improved Energy Recovery Performance of Oscillated Wings Using Articulated and Flexible Bodies** (Apr 2022–Aug 2023)
