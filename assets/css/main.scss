@@ -41,30 +41,4 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* ---- Avatar size override (wide + shorter) ---- */
-.sidebar .author__avatar {
-  width: auto !important;
-  height: auto !important;
-  display: block !important;
-}
 
-/* The theme uses both: <div class="author__avatar"> and sometimes <img class="author__avatar"> */
-.sidebar .author__avatar > img,
-.sidebar img.author__avatar {
-  width: 240px !important;      /* wider */
-  height: 150px !important;     /* shorter */
-  max-width: none !important;   /* overrides max-width:175px */
-  object-fit: cover !important; /* crops nicely */
-  border-radius: 12px !important; /* change to 0 if you want sharp corners */
-  display: block !important;
-}
-
-/* Small screens */
-@media (max-width: 1023px) {
-  .sidebar .author__avatar > img,
-  .sidebar img.author__avatar {
-    width: 70px !important;
-    height: 45px !important;
-    border-radius: 8px !important;
-  }
-}
