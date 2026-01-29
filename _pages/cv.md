@@ -18,8 +18,7 @@ Education
 
 Graduate Coursework
 ======
-<div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px;">
-
+<div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;">
   <div>
     <strong>Data Science</strong><br><br>
     (1) Machine Learning<br>
@@ -29,7 +28,6 @@ Graduate Coursework
     (5) Deep Learning<br>
     (6) Data Visualization
   </div>
-
   <div>
     <strong>Applied Mathematics</strong><br><br>
     (1) Applied Numerical Analysis<br>
@@ -39,7 +37,6 @@ Graduate Coursework
     (5) Optimization<br>
     (6) Computational Methods
   </div>
-
   <div>
     <strong>Pure Mathematics</strong><br><br>
     (1) Real Analysis<br>
@@ -49,8 +46,8 @@ Graduate Coursework
     (5) Complex Analysis<br>
     (6) Topology
   </div>
-
 </div>
+
 
 Work experience
 ======
