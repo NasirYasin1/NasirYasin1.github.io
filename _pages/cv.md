@@ -18,11 +18,12 @@ Education
 
 Graduate Coursework
 ======
-- Applied Numerical Analysis
-- Partial Differential Equations
-- Scientific Computing
-- High-Performance Computing
-- Machine Learning
+| Data Science | Applied Mathematics | Pure Mathematics |
+|---|---|---|
+| Machine Learning | Applied Numerical Analysis | Real Analysis |
+| Statistical Learning | Partial Differential Equations | Functional Analysis |
+| Data Mining | Scientific Computing | Measure Theory |
+| Big Data Analytics | High-Performance Computing | Abstract Algebra |
 
 Work experience
 ======
