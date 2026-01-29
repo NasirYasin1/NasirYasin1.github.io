@@ -18,6 +18,41 @@ Education
 
 Graduate Coursework
 ======
+<div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px;">
+
+  <div>
+    <strong>Data Science</strong><br><br>
+    (1) Machine Learning<br>
+    (2) Statistical Learning<br>
+    (3) Data Mining<br><br>
+    (4) Big Data Analytics<br>
+    (5) Deep Learning<br>
+    (6) Data Visualization
+  </div>
+
+  <div>
+    <strong>Applied Mathematics</strong><br><br>
+    (1) Applied Numerical Analysis<br>
+    (2) Partial Differential Equations<br>
+    (3) Scientific Computing<br><br>
+    (4) High-Performance Computing<br>
+    (5) Optimization<br>
+    (6) Computational Methods
+  </div>
+
+  <div>
+    <strong>Pure Mathematics</strong><br><br>
+    (1) Real Analysis<br>
+    (2) Functional Analysis<br>
+    (3) Measure Theory<br><br>
+    (4) Abstract Algebra<br>
+    (5) Complex Analysis<br>
+    (6) Topology
+  </div>
+
+</div>
+Graduate Coursework
+======
 **Data Science**
 (1) Machine Learning &nbsp;&nbsp; (2) Statistical Learning &nbsp;&nbsp; (3) Data Mining  
 (4) Big Data Analytics &nbsp;&nbsp; (5) Deep Learning &nbsp;&nbsp; (6) Data Visualization  
