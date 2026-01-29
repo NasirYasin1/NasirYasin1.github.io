@@ -18,34 +18,44 @@ Education
 
 Graduate Coursework
 ======
-<div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px;">
+<div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; margin-top:-10px;">
+
   <div>
-    <strong>Data Science</strong><br><br>
-    (1) Machine Learning<br>
-    (2) Statistical Learning<br>
-    (3) Data Mining<br><br>
-    (4) Big Data Analytics<br>
-    (5) Deep Learning<br>
-    (6) Data Visualization
+    <strong>Data Science</strong>
+    <ol style="margin:6px 0 0 18px; padding:0;">
+      <li>Machine Learning</li>
+      <li>Statistical Learning</li>
+      <li>Data Mining</li>
+      <li>Big Data Analytics</li>
+      <li>Deep Learning</li>
+      <li>Data Visualization</li>
+    </ol>
   </div>
+
   <div>
-    <strong>Applied Mathematics</strong><br><br>
-    (1) Applied Numerical Analysis<br>
-    (2) Partial Differential Equations<br>
-    (3) Scientific Computing<br><br>
-    (4) High-Performance Computing<br>
-    (5) Optimization<br>
-    (6) Computational Methods
+    <strong>Applied Mathematics</strong>
+    <ol style="margin:6px 0 0 18px; padding:0;">
+      <li>Applied Numerical Analysis</li>
+      <li>Partial Differential Equations</li>
+      <li>Scientific Computing</li>
+      <li>High-Performance Computing</li>
+      <li>Optimization</li>
+      <li>Computational Methods</li>
+    </ol>
   </div>
+
   <div>
-    <strong>Pure Mathematics</strong><br><br>
-    (1) Real Analysis<br>
-    (2) Functional Analysis<br>
-    (3) Measure Theory<br><br>
-    (4) Abstract Algebra<br>
-    (5) Complex Analysis<br>
-    (6) Topology
+    <strong>Pure Mathematics</strong>
+    <ol style="margin:6px 0 0 18px; padding:0;">
+      <li>Real Analysis</li>
+      <li>Functional Analysis</li>
+      <li>Measure Theory</li>
+      <li>Abstract Algebra</li>
+      <li>Complex Analysis</li>
+      <li>Topology</li>
+    </ol>
   </div>
+
 </div>
 
 
