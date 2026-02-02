@@ -16,6 +16,62 @@ Education
 * Master Of science in Mathematics, COMSATS University Islamabad, 2021
 * B.S in Mathematics, International Islamic University Islamabad, 2018
 
+<!-- Data Science -->
+<div style="margin-bottom:16px; overflow-x:auto;">
+  <div style="display:grid; grid-template-columns:max-content max-content max-content; gap:28px; margin-top:6px;">
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc; white-space:nowrap;">
+      <li>Machine Learning</li>
+      <li>Probability Theory for Data Science</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc; white-space:nowrap;">
+      <li>Large-Scale Optimization</li>
+      <li>Modern Statistical Methods for Big Data Analytics</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc; white-space:nowrap;">
+      <li>Statistical Theory for Data Science</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Numerical Modeling -->
+<div style="margin-bottom:16px; overflow-x:auto;">
+  <div style="display:grid; grid-template-columns:max-content max-content max-content; gap:28px; margin-top:6px;">
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc; white-space:nowrap;">
+      <li>Numerical Solution of PDEs</li>
+      <li>Perturbation Methods</li>
+      <li>Viscous Fluid Flow</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc; white-space:nowrap;">
+      <li>Computational Linear Algebra</li>
+      <li>Heat Transfer</li>
+      <li>Numerical Solution of Differential Equations</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc; white-space:nowrap;">
+      <li>Numerical Linear Algebra</li>
+      <li>Elastodynamics</li>
+      <li>Advanced Applied Numerical Methods</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Pure Mathematics -->
+<div style="margin-bottom:0; overflow-x:auto;">
+  <div style="display:grid; grid-template-columns:max-content max-content max-content; gap:28px; margin-top:6px;">
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc; white-space:nowrap;">
+      <li>Real Analysis</li>
+      <li>Applied Functional Analysis</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc; white-space:nowrap;">
+      <li>Measure Theory</li>
+      <li>Engineering Analysis</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc; white-space:nowrap;">
+      <li>Complex Analysis</li>
+      <li>Fixed Point Theory</li>
+    </ul>
+  </div>
+</div>
+
 
 Graduate Coursework
 ======
