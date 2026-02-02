@@ -24,6 +24,69 @@ Graduate Coursework
 <div style="margin-bottom:16px;">
   <strong>Data Science</strong>
   <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:28px; margin-top:6px;">
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
+      <li>Machine Learning</li>
+      <li>Modern Statistical Methods for Big Data Analytics</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
+      <li>Large-Scale Optimization</li>
+      <li>Probability Theory for Data Science</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
+      <li>Statistical Theory for Data Science</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Numerical Modeling -->
+<div style="margin-bottom:16px;">
+  <strong>Numerical Modeling</strong>
+  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:28px; margin-top:6px;">
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
+      <li>Numerical Solution of PDEs</li>
+      <li>Numerical Solution of Differential Equations</li>
+      <li>Advanced Applied Numerical Methods</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
+      <li>Computational Linear Algebra</li>
+      <li>Numerical Linear Algebra</li>
+      <li>Perturbation Methods</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
+      <li>Heat Transfer</li>
+      <li>Elastodynamics</li>
+      <li>Viscous Fluid Flow</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Pure Mathematics -->
+<div style="margin-bottom:0;">
+  <strong>Pure Mathematics</strong>
+  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:28px; margin-top:6px;">
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
+      <li>Real Analysis</li>
+      <li>Applied Functional Analysis</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
+      <li>Measure Theory</li>
+      <li>Engineering Analysis</li>
+    </ul>
+    <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
+      <li>Complex Analysis</li>
+      <li>Fixed Point Theory</li>
+    </ul>
+  </div>
+</div>
+
+
+Graduate Coursework
+======
+
+<!-- Data Science -->
+<div style="margin-bottom:16px;">
+  <strong>Data Science</strong>
+  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:28px; margin-top:6px;">
     <ol style="margin:0 0 0 18px; padding:0;">
       <li>Machine Learning</li>
       <li>Modern Statistical Methods for Big Data Analytics</li>
