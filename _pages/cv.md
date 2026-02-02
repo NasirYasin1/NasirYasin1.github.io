@@ -78,68 +78,6 @@ Graduate Coursework
     </ol>
   </div>
 </div>
-
-
-Graduate Coursework
-======
-<!-- Data Science -->
-<div style="margin-bottom:16px;">
-  <strong>Data Science</strong>
-  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:28px; margin-top:6px;">
-    <ol style="margin:0 0 0 18px; padding:0;">
-      <li>Machine Learning</li>
-      <li>Modern Statistical Methods for Big Data Analytics</li>
-    </ol>
-    <ol style="margin:0 0 0 18px; padding:0;">
-      <li>Large-Scale Optimization</li>
-      <li>Probability Theory for Data Science</li>
-    </ol>
-    <ol style="margin:0 0 0 18px; padding:0;">
-      <li>Statistical Theory for Data Science</li>
-    </ol>
-  </div>
-</div>
-
-<!-- Numerical Modeling -->
-<div style="margin-bottom:16px;">
-  <strong>Numerical Modeling</strong>
-  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:28px; margin-top:6px;">
-    <ol style="margin:0 0 0 18px; padding:0;">
-      <li>Numerical Solution of PDEs</li>
-      <li>Numerical Solution of Differential Equations</li>
-      <li>Advance Applied Numeric Methods</li>
-    </ol>
-    <ol style="margin:0 0 0 18px; padding:0;">
-      <li>Computational Linear Algebra</li>
-      <li>Numerical Linear Algebra</li>
-       <li>Perturbation Method</li>
-    </ol>
-    <ol style="margin:0 0 0 18px; padding:0;">
-      <li>Heat Transfer</li>
-      <li>Elastodynamics</li
-      <li>Viscous Fluid</li>
-    </ol>
-  </div>
-</div>
-
-<!-- Pure Mathematics -->
-<div style="margin-bottom:0;">
-  <strong>Pure Mathematics</strong>
-  <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:28px; margin-top:6px;">
-    <ol style="margin:0 0 0 18px; padding:0;">
-      <li>Real Analysis</li>
-      <li>Applied Functional Analysis</li>
-    </ol>
-    <ol style="margin:0 0 0 18px; padding:0;">
-      <li>Measure Theory</li>
-      <li>Engineering Analysis</li>
-    </ol>
-    <ol style="margin:0 0 0 18px; padding:0;">
-      <li>Complex Analysis</li>
-      <li> Fixed Point Theory</li>
-    </ol>
-  </div>
-</div>
 Work experience
 ======
 * <strong>Fall 2023 - Present </strong>: Graduate Teaching Assistant 
