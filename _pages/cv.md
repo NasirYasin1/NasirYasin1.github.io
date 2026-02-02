@@ -46,11 +46,11 @@ Graduate Coursework
     </ul>
     <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
       <li>Computational Linear Algebra</li>
-      <li>Numerical Linear Algebra</li>
+      <li>Heat Transfer</li>
       <li>Perturbation Methods</li>
     </ul>
     <ul style="margin:0 0 0 18px; padding:0; list-style:disc;">
-      <li>Heat Transfer</li>
+      <li>Numerical Linear Algebra</li>
       <li>Elastodynamics</li>
       <li>Viscous Fluid Flow</li>
     </ul>
