@@ -78,6 +78,7 @@ Graduate Coursework
     </ol>
   </div>
 </div>
+
 Work experience
 ======
 * <strong>Fall 2023 - Present </strong>: Graduate Teaching Assistant 
