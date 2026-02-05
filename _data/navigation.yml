@@ -27,7 +27,7 @@ main:
     url: https://scholar.google.com/citations?user=SXnHNu0AAAAJ
     
   - title: "Talks"
-    url: /Talks/  
+    url: /talks/  
     
   # - title: "CV"
   #   url: /cv-json/
