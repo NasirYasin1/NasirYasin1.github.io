@@ -15,6 +15,11 @@ var addressPoints = [
     -122.272863
   ],
   [
+    "Flow Patterns Behind Stationary and Moving Bluff Bodies Utilizing the SRC-Lattice Boltzmann Method<br />Event / West Virginia University / SEARCDE; Morgantown, WV, USA",
+    39.6296809,
+    -79.9559437
+  ],
+  [
     "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
     37.7879363,
     -122.4075201
