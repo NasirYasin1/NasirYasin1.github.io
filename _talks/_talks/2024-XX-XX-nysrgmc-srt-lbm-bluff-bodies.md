@@ -8,5 +8,4 @@ location: "Syracuse,New York, USA"
 permalink: https://mgo.syr.edu/conferences/past-conferences/2025-conference/
 ---
 
-Presented at the 50th Annual New York State Regional Graduate Mathematics Conference on flow dynamics around bluff bodies using the SRT-LBM approach.
 
