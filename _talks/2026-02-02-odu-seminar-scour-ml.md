@@ -1,5 +1,5 @@
 ---
-title: "Flow Patterns Behind Stationary and Moving Bluff Bodies Utilizing the SRC-Lattice Boltzmann Method"
+title: "Flow Patterns Behind Stationary and Moving Bluff Bodies Utilizing the SRT-Lattice Boltzmann Method"
 collection: talks
 type: "Conference"          # or "Conference talk", "Seminar", etc.
 venue: "SEARCDE 2024 Conference, West Virginia University"
