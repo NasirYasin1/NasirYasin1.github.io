@@ -2,7 +2,7 @@
 title: "Flow Patterns Behind Stationary and Moving Bluff Bodies Utilizing the SRC-Lattice Boltzmann Method"
 collection: talks
 type: "Conference"          # or "Conference talk", "Seminar", etc.
-venue: "Event / West Virginia University / SEARCDE"
+venue: "SEARCDE 2024 Conference, West Virginia University"
 date: 11-09-2024
 location: "Morgantown, WV, USA"
 permalink: /talks/2024-11-09-searcde-src-lbm-bluff-bodies
