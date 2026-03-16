@@ -28,7 +28,10 @@ main:
     
   - title: "Talks"
     url: /talks/  
+
     
+ - title: "Gallery"
+    url: /gallery/
   # - title: "CV"
   #   url: /cv-json/
     
