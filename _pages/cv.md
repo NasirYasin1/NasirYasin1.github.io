@@ -119,21 +119,15 @@ redirect_from:
 
 <div class="cv-entry" style="line-height: 1.8;">
 
-  <p><strong>Programming Languages:</strong>
-  Python, MATLAB, R, C++, Fortran</p>
+  <p><strong>Programming Languages:</strong> Python, MATLAB, R, C++, Fortran</p>
 
-  <p><strong>Scientific and High-Performance Computing:</strong>
-  CUDA, GPU Computing, Linux, Parallel Computing</p>
+  <p><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
 
-  <p><strong>Numerical and Computational Methods:</strong>
-  Lattice Boltzmann Method (LBM), Numerical Methods for PDEs,
-  Finite Difference Methods</p>
+  <p><strong>Numerical Methods:</strong> Lattice Boltzmann Method (LBM), Numerical Methods for Partial Differential Equations (PDEs), Finite Difference Methods</p>
 
-  <p><strong>Machine Learning and Data Analysis:</strong>
-  Machine Learning, Statistical Modeling, Scientific Data Analysis</p>
+  <p><strong>Machine Learning and Statistical Analysis:</strong> Machine Learning, Statistical Modeling, Scientific Data Analysis</p>
 
-  <p><strong>Scientific Visualization:</strong>
-  Tecplot, MATLAB, Python</p>
+  <p><strong>Scientific Visualization:</strong> Tecplot, MATLAB, Python</p>
 
 </div>
 
