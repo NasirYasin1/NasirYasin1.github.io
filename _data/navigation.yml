@@ -7,10 +7,26 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
+
 main:
-  
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+
+  - title: "CV"
+    url: /cv/
+
+  - title: "Publications"
+    url: https://scholar.google.com/citations?user=SXnHNu0AAAAJ
+
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Gallery"
+    url: /gallery/
+#main:
+  
+ # - title: "Teaching"
+  #  url: /teaching/    
     
     
   #- title: "Portfolio"
@@ -19,19 +35,19 @@ main:
   #- title: "Blog Posts"
 #    url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+  #- title: "CV"
+  #  url: /cv/
 
-  - title: "Publications"
-    url: /publications/
-    url: https://scholar.google.com/citations?user=SXnHNu0AAAAJ
+ # - title: "Publications"
+   # url: /publications/
+    #url: https://scholar.google.com/citations?user=SXnHNu0AAAAJ
     
-  - title: "Talks"
-    url: /talks/  
+ # - title: "Talks"
+ #   url: /talks/  
 
     
- - title: "Gallery"
-    url: /gallery/
+# - title: "Gallery"
+ #   url: /gallery/
   # - title: "CV"
   #   url: /cv-json/
     
