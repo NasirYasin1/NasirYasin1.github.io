@@ -75,17 +75,6 @@ redirect_from:
   </ul>
 </div>
 
-<h2>Teaching Experience</h2>
-
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Graduate Teaching Assistant, Supplemental Instruction (SI) Leader</span><span class="cv-date">Fall 2023 – Present</span></div>
-  <div class="cv-org">Department of Mathematics and Statistics, Old Dominion University, Norfolk, VA, USA</div>
-  <ul>
-    <li>Lead structured problem-solving sessions for undergraduate mathematics courses.</li>
-    <li>Support students in the Applied Calculus Lab and the SMART Room, and provide online tutoring.</li>
-    <li>Courses: MATH 212 Calculus; MATH 205 Calculus for Life Sciences; MATH 200 Calculus for Business and Economics; MATH 162 Precalculus; MATH 103 College Algebra; MATH 100 Introduction to Mathematics for Critical Thinking.</li>
-  </ul>
-</div>
 
 <h2>Research Projects</h2>
 
@@ -103,6 +92,18 @@ redirect_from:
 </div>
 <div class="cv-entry">
   <div class="cv-head"><span class="cv-role">Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</span><span class="cv-date">Jan 2020 – Apr 2022</span></div>
+</div>
+
+<h2>Teaching Experience</h2>
+
+<div class="cv-entry">
+  <div class="cv-head"><span class="cv-role">Graduate Teaching Assistant, Supplemental Instruction (SI) Leader</span><span class="cv-date">Fall 2023 – Present</span></div>
+  <div class="cv-org">Department of Mathematics and Statistics, Old Dominion University, Norfolk, VA, USA</div>
+  <ul>
+    <li>Lead structured problem-solving sessions for undergraduate mathematics courses.</li>
+    <li>Support students in the Applied Calculus Lab and the SMART Room, and provide online tutoring.</li>
+    <li>Courses: MATH 212 Calculus; MATH 205 Calculus for Life Sciences; MATH 200 Calculus for Business and Economics; MATH 162 Precalculus; MATH 103 College Algebra; MATH 100 Introduction to Mathematics for Critical Thinking.</li>
+  </ul>
 </div>
 
 <h2>Talks and Presentations</h2>
