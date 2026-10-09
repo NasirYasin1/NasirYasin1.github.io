@@ -115,21 +115,15 @@ redirect_from:
 </div>
 
 
+
 <h2>Technical Skills</h2>
 
-<div class="cv-entry" style="line-height: 1.8;">
-
-  <p><strong>Programming Languages:</strong> Python, MATLAB, R, C++, Fortran</p>
-
-  <p><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
-
-  <p><strong>Numerical Methods:</strong> Lattice Boltzmann Method (LBM), Numerical Methods for Partial Differential Equations (PDEs), Finite Difference Methods</p>
-
-  <p><strong>Machine Learning and Statistical Analysis:</strong> Machine Learning, Statistical Modeling, Scientific Data Analysis</p>
-
-  <p><strong>Scientific Visualization:</strong> Tecplot, MATLAB, Python</p>
-
+<div class="cv-entry">
+  <p><strong>Programming:</strong> Python, MATLAB, R, C++, Fortran</p>
+  <p><strong>Numerical Computing:</strong> Lattice Boltzmann Method (LBM), Numerical Methods for PDEs, CUDA</p>
+  <p><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
 </div>
+
 
 
 <h2>Graduate Coursework</h2>
