@@ -10,21 +10,28 @@ redirect_from:
 {% include base_path %}
 
 <style>
-  .cv h2 { margin-top: 1.8em; padding-bottom: .3em; border-bottom: 1px solid var(--global-border-color); }
-  .cv-entry { margin: 0 0 1.2em; }
-  .cv-head { display: flex; align-items: baseline; gap: 0 1.5em; }
-  .cv-role { flex: 1; font-weight: 700; }
-  .cv-date { flex: none; white-space: nowrap; color: var(--global-text-color-light); }
-  @media (max-width: 600px) { .cv-head { flex-direction: column; } }
-  .cv-org { font-style: italic; }
-  .cv-entry ul { margin: .3em 0 0 1.2em; }
-  .cv-entry li, .cv-list li { margin-bottom: .2em; }
-  .cv-group { font-weight: 700; margin: .9em 0 .2em; }
-  .cv-cols { columns: 2 16em; column-gap: 2em; margin: 0 0 0 1.2em; }
-  .cv-cols li { break-inside: avoid; }
+  .cv { --cv-accent: #2f7f93; --cv-muted: #657581; --cv-rule: #dbe5e9; line-height: 1.65; max-width: 100%; }
+  .cv h2 { margin: 2.1em 0 .85em; padding: 0 0 .42em; border-bottom: 1px solid var(--cv-rule); font-size: 1.32em; font-weight: 700; letter-spacing: -.015em; }
+  .cv h2:first-child { margin-top: .45em; }
+  .cv-entry { margin: 0 0 1.35em; }
+  .cv-head { display: flex; align-items: baseline; justify-content: space-between; gap: .35em 1.3em; }
+  .cv-role { min-width: 0; font-weight: 700; line-height: 1.45; }
+  .cv-date { flex: 0 0 auto; white-space: nowrap; color: var(--cv-muted); font-size: .91em; font-variant-numeric: tabular-nums; }
+  .cv-org { margin-top: .14em; font-style: italic; color: var(--cv-muted); }
+  .cv-entry ul { margin: .45em 0 0 1.3em; padding: 0; }
+  .cv-entry li, .cv-cols li { margin-bottom: .34em; padding-left: .1em; }
+  .cv-group { font-weight: 700; color: var(--cv-accent); margin: 1.25em 0 .55em; }
+  .cv-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.1em; row-gap: .12em; margin: 0 0 1.3em; padding-left: 1.35em; }
+  .cv-cols li { min-width: 0; overflow-wrap: anywhere; }
   .cv-skills { margin: 0; }
-  .cv-skills dt { font-weight: 700; margin-top: .5em; }
-  .cv-skills dd { margin: 0 0 0 1.2em; }
+  .cv-skills dt { font-weight: 700; margin-top: .75em; }
+  .cv-skills dd { margin: .12em 0 0 1.2em; }
+  @media (max-width: 700px) {
+    .cv-head { flex-direction: column; align-items: flex-start; gap: .1em; }
+    .cv-date { white-space: normal; }
+    .cv-cols { grid-template-columns: minmax(0, 1fr); }
+    .cv h2 { margin-top: 1.7em; }
+  }
 </style>
 
 <div class="cv" markdown="0">
@@ -89,24 +96,14 @@ redirect_from:
 
 <h2>Research Projects</h2>
 
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="cv-date">Jan 2024 – Present</span></div>
-</div>
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span><span class="cv-date">Dec 2023</span></div>
-</div>
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Image Processing and Compression Using Multiple Algorithms</span><span class="cv-date">Dec 2023</span></div>
-</div>
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Improved Energy Recovery Performance of Oscillating Wings Using Articulated and Flexible Bodies</span><span class="cv-date">Apr 2022 – Aug 2023</span></div>
-</div>
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</span><span class="cv-date">Jan 2020 – Apr 2022</span></div>
-</div>
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="cv-date">Jan 2024 – Present</span></div></div>
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span><span class="cv-date">Dec 2023</span></div></div>
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Image Processing and Compression Using Multiple Algorithms</span><span class="cv-date">Dec 2023</span></div></div>
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Improved Energy Recovery Performance of Oscillating Wings Using Articulated and Flexible Bodies</span><span class="cv-date">Apr 2022 – Aug 2023</span></div></div>
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</span><span class="cv-date">Jan 2020 – Apr 2022</span></div></div>
 
 <h2>Talks and Presentations</h2>
-# %%
+
 <div class="cv-entry">
   <div class="cv-head"><span class="cv-role">Investigation of Flow Dynamics Around Bluff Bodies Using SRT-LBM</span><span class="cv-date">Mar 2025</span></div>
   <div class="cv-org">50th Annual New York State Regional Graduate Mathematics Conference, Syracuse University, Syracuse, NY</div>
