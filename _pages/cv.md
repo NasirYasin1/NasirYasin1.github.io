@@ -18,6 +18,8 @@ redirect_from:
   .cv-date { flex: none; white-space: nowrap; color: var(--global-text-color-light); }
   @media (max-width: 600px) { .cv-head { flex-direction: column; } }
   .cv-org { font-style: italic; }
+  .cv-concentration { margin-top: .2em; font-size: .95em; line-height: 1.5; }
+  .cv-concentration strong { font-weight: 600; }
   .cv-sup { margin-top: .1em; }
   .cv-sup a { color: #2f7f93; text-decoration: none; border-bottom: none; }
   .cv-sup a:hover { text-decoration: underline; }
@@ -36,8 +38,8 @@ redirect_from:
 
 <div class="cv-entry">
   <div class="cv-head"><span class="cv-role">Ph.D., Applied and Computational Mathematics</span><span class="cv-date">Expected 2028</span></div>
-   <ul><li>Concentration: Mathematics of Data Science</li></ul>
   <div class="cv-org">Old Dominion University, Norfolk, VA, USA</div>
+  <div class="cv-concentration"><strong>Concentration:</strong> Mathematics of Data Science</div>
 </div>
 
 <div class="cv-entry">
@@ -116,11 +118,10 @@ redirect_from:
 <ul class="cv-cols">
   <li>Large-Scale Optimization</li>
   <li>Genomic Data Science</li>
-   <li>Statistical Theory for Data Science</li>
+  <li>Statistical Theory for Data Science</li>
   <li>Probability Theory for Data Science</li>
   <li>Machine Learning</li>
   <li>Modern Statistical Methods for Big Data Analytics</li>
-  
 </ul>
 
 <div class="cv-group">Numerical Analysis and Computational Modeling</div>
