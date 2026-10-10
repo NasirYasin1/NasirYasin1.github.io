@@ -128,7 +128,6 @@ redirect_from:
 <div class="cv-group">Machine Learning and Data Science</div>
 <ul class="cv-cols">
   <li>Machine Learning</li>
-  <li>Genomic Data Science</li>
   <li>Probability Theory for Data Science</li>
   <li>Statistical Theory for Data Science</li>
   <li>Modern Statistical Methods for Big Data Analytics</li>
@@ -137,7 +136,6 @@ redirect_from:
 
 <div class="cv-group">Numerical Analysis and Computational Modeling</div>
 <ul class="cv-cols">
-  <li>Scientific Computing in Applied Mathematics</li>
   <li>Numerical Solution of PDEs</li>
   <li>Numerical Solution of Differential Equations</li>
   <li>Advanced Applied Numerical Methods</li>
