@@ -86,18 +86,22 @@ redirect_from:
     <li>Post-processed and visualized simulation results in MATLAB and Tecplot.</li>
   </ul>
 </div>
+
 <h2>Research Projects</h2>
 
 <div class="cv-entry cv-plain">
-  <div class="cv-head"><span class="cv-role">Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="cv-date">Jan 2024 – Present</span></div>
-  <div class="cv-org">M.S. Thesis, <a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a></div>
+  <div class="cv-head"><span class="cv-role">Entropy and Gradient Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="cv-date">Jan 2024 – 2025</span></div>
+  <div class="cv-org">M.S. Thesis, Old Dominion University</div>
 </div>
+
 <div class="cv-entry cv-plain">
-  <div class="cv-head">
-    <span class="cv-role">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span>
-    <span class="cv-date">Dec 2023</span>
-  </div>
-  <div class="cv-org">Graduate Coursework, <a href="https://www.odu.edu" target="_blank" rel="noopener">Old Dominion University</a></div>
+  <div class="cv-head"><span class="cv-role">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span><span class="cv-date">Dec 2023</span></div>
+  <div class="cv-org">Course Project, Old Dominion University</div>
+</div>
+
+<div class="cv-entry cv-plain">
+  <div class="cv-head"><span class="cv-role">Image Processing and Compression Using Multiple Algorithms</span><span class="cv-date">Dec 2023</span></div>
+  <div class="cv-org">Course Project, Old Dominion University</div>
 </div>
 
 <div class="cv-entry cv-plain">
