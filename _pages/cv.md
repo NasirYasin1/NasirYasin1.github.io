@@ -27,7 +27,7 @@ redirect_from:
   .cv-skill { margin: 0 0 .4em; }
   .cv-group { font-weight: 700; color: #2f7f93; margin: 1.2em 0 .4em; }
   html[data-theme="dark"] .cv-group { color: #5cc6df; }
-  .cv-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(16em, 1fr)); column-gap: 2em; row-gap: .3em; margin: 0 0 0 1.2em; padding: 0; }
+  .cv-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.5em; row-gap: .3em; margin: 0 0 0 1.2em; padding: 0; }
 </style>
 
 <div class="cv" markdown="0">
