@@ -36,8 +36,8 @@ redirect_from:
 
 <div class="cv-entry">
   <div class="cv-head"><span class="cv-role">Ph.D., Applied and Computational Mathematics</span><span class="cv-date">Expected 2028</span></div>
+   <ul><li>Concentration: Mathematics of Data Science</li></ul>
   <div class="cv-org">Old Dominion University, Norfolk, VA, USA</div>
-  <ul><li>Concentration: Mathematics of Data Science</li></ul>
 </div>
 
 <div class="cv-entry">
