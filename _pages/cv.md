@@ -22,9 +22,9 @@ redirect_from:
   .cv-entry ul { margin: .3em 0 0 1.2em; }
   .cv-entry li { margin-bottom: .2em; }
   .cv-skill { margin: 0 0 .4em; }
-  .cv-group { font-weight: 700; margin: .9em 0 .2em; }
-  .cv-cols { columns: 2 16em; column-gap: 2em; margin: 0 0 0 1.2em; }
-  .cv-cols li { break-inside: avoid; }
+  .cv-group { font-weight: 700; color: #2f7f93; margin: 1.2em 0 .4em; }
+  html[data-theme="dark"] .cv-group { color: #5cc6df; }
+  .cv-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(16em, 1fr)); column-gap: 2em; row-gap: .3em; margin: 0 0 0 1.2em; padding: 0; }
 </style>
 
 <div class="cv" markdown="0">
@@ -70,7 +70,7 @@ redirect_from:
 <div class="cv-entry">
   <div class="cv-head"><span class="cv-role">Research Assistant</span><span class="cv-date">Jan 2020 – Apr 2022</span></div>
   <div class="cv-org">COMSATS University Islamabad, Islamabad, Pakistan</div>
-  <div class="cv-sup">Supervisor: <a href="https://scholar.google.com/citations?hl=en&amp;user=OAp3xVAAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener">Dr. Shams ul Islam</a></div>
+  <div class="cv-sup">Supervisor: <a href="https://scholar.google.com/citations?hl=en&amp;user=OAp3xVAAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener">Dr. Shams ul Islam</a> · <a href="mailto:islam_shams@comsats.edu.pk">islam_shams@comsats.edu.pk</a></div>
   <ul>
     <li>Project: <em>Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</em>, funded by the Higher Education Commission (HEC) of Pakistan.</li>
     <li>Developed single-relaxation-time Lattice Boltzmann (SRT-LBM) simulations in Fortran.</li>
