@@ -96,12 +96,12 @@ redirect_from:
 
 <div class="cv-entry cv-plain">
   <div class="cv-head"><span class="cv-role">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span><span class="cv-date">Dec 2023</span></div>
-  <div class="cv-org"><a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a></div>
+  <div class="cv-org">Course Project, <a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a></div>
 </div>
 
 <div class="cv-entry cv-plain">
   <div class="cv-head"><span class="cv-role">Image Processing and Compression Using Multiple Algorithms</span><span class="cv-date">Dec 2023</span></div>
-  <div class="cv-org"><a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a></div>
+  <div class="cv-org">Course Project, <a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a></div>
 </div>
 
 <h2>Talks and Presentations</h2>
