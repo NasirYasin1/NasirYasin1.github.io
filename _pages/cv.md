@@ -121,16 +121,15 @@ redirect_from:
     <li>Courses: MATH 212 Calculus; MATH 205 Calculus for Life Sciences; MATH 200 Calculus for Business and Economics; MATH 162 Precalculus; MATH 103 College Algebra; MATH 100 Introduction to Mathematics for Critical Thinking.</li>
   </ul>
 </div>
-
+<!--
 <h2>Technical Skills</h2>
-
 <div class="cv-entry">
   <p class="cv-skill"><strong>Programming Languages:</strong> Python, MATLAB, R, C++, Fortran</p>
   <p class="cv-skill"><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
   <p class="cv-skill"><strong>Numerical Methods:</strong> Lattice Boltzmann Method, Numerical Methods for Partial Differential Equations</p>
   <p class="cv-skill"><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
 </div>
-
+-->
 <h2>Graduate Coursework</h2>
 
 <div class="cv-group">Machine Learning and Data Science</div>
