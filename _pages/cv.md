@@ -124,16 +124,6 @@ redirect_from:
   <p style="margin:0"><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
 </div>
 
-<div class="cv-entry">
-  <p><strong>Programming Languages:</strong> Python, MATLAB, R, C++, Fortran</p>
-
-  <p><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
-
-  <p><strong>Numerical Methods:</strong> Lattice Boltzmann Method, Numerical Methods for Partial Differential Equations</p>
-
-  <p><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
-</div>
-
 <h2>Graduate Coursework</h2>
 
 <div class="cv-group">Machine Learning and Data Science</div>
