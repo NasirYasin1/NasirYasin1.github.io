@@ -110,17 +110,6 @@ redirect_from:
   <div class="cv-org">SEARCDE 2024 Conference, West Virginia University, Morgantown, WV</div>
 </div>
 
-<h2>Teaching Experience</h2>
-
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Graduate Teaching Assistant, Supplemental Instruction (SI) Leader</span><span class="cv-date">Fall 2023 – Present</span></div>
-  <div class="cv-org">Department of Mathematics and Statistics, Old Dominion University, Norfolk, VA, USA</div>
-  <ul>
-    <li>Lead structured problem-solving sessions for undergraduate mathematics courses.</li>
-    <li>Support students in the Applied Calculus Lab and the SMART Room, and provide online tutoring.</li>
-    <li>Courses: MATH 212 Calculus; MATH 205 Calculus for Life Sciences; MATH 200 Calculus for Business and Economics; MATH 162 Precalculus; MATH 103 College Algebra; MATH 100 Introduction to Mathematics for Critical Thinking.</li>
-  </ul>
-</div>
 <h2>Graduate Coursework</h2>
 
 <div class="cv-group">Machine Learning and Data Science</div>
