@@ -118,6 +118,13 @@ redirect_from:
 <h2>Technical Skills</h2>
 
 <div class="cv-entry">
+  <p style="margin:0 0 .4em"><strong>Programming Languages:</strong> Python, MATLAB, R, C++, Fortran</p>
+  <p style="margin:0 0 .4em"><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
+  <p style="margin:0 0 .4em"><strong>Numerical Methods:</strong> Lattice Boltzmann Method, Numerical Methods for Partial Differential Equations</p>
+  <p style="margin:0"><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
+</div>
+
+<div class="cv-entry">
   <p><strong>Programming Languages:</strong> Python, MATLAB, R, C++, Fortran</p>
 
   <p><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
