@@ -137,9 +137,9 @@ redirect_from:
 <ul class="cv-cols">
   <li>Large-Scale Optimization</li>
   <li>Genomic Data Science</li>
-  <li>Machine Learning</li>
+   <li>Statistical Theory for Data Science</li>
   <li>Probability Theory for Data Science</li>
-  <li>Statistical Theory for Data Science</li>
+  <li>Machine Learning</li>
   <li>Modern Statistical Methods for Big Data Analytics</li>
   
 </ul>
