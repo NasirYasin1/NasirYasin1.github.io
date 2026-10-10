@@ -140,6 +140,7 @@ redirect_from:
   <li>Statistical Theory for Data Science</li>
   <li>Modern Statistical Methods for Big Data Analytics</li>
   <li>Large-Scale Optimization</li>
+  <li>Genomic Data Science</li>
 </ul>
 
 <div class="cv-group">Numerical Analysis and Computational Modeling</div>
@@ -153,6 +154,7 @@ redirect_from:
   <li>Viscous Fluid Flow</li>
   <li>Heat Transfer</li>
   <li>Elastodynamics</li>
+  <li>Scientific Computing in Applied Mathematics</li>
 </ul>
 
 <div class="cv-group">Mathematical Analysis</div>
