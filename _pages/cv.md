@@ -122,7 +122,7 @@ redirect_from:
 
   <p><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
 
-  <p><strong>Numerical Methods:</strong> Lattice Boltzmann Method (SRT-LBM), Numerical Methods for Partial Differential Equations, Entropy- and Gradient-Stable Schemes</p>
+  <p><strong>Numerical Methods:</strong> Lattice Boltzmann Method, Numerical Methods for Partial Differential Equations</p>
 
   <p><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
 </div>
