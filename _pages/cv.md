@@ -18,6 +18,7 @@ redirect_from:
   .cv-date { flex: none; white-space: nowrap; color: var(--global-text-color-light); }
   @media (max-width: 600px) { .cv-head { flex-direction: column; } }
   .cv-org { font-style: italic; }
+  .cv-sup { margin-top: .1em; }
   .cv-entry ul { margin: .3em 0 0 1.2em; }
   .cv-entry li { margin-bottom: .2em; }
   .cv-skill { margin: 0 0 .4em; }
@@ -33,6 +34,7 @@ redirect_from:
 <div class="cv-entry">
   <div class="cv-head"><span class="cv-role">Ph.D., Applied and Computational Mathematics</span><span class="cv-date">Expected 2028</span></div>
   <div class="cv-org">Old Dominion University, Norfolk, VA, USA</div>
+  <ul><li>Concentration: Mathematics of Data Science</li></ul>
 </div>
 
 <div class="cv-entry">
@@ -57,6 +59,7 @@ redirect_from:
 <div class="cv-entry">
   <div class="cv-head"><span class="cv-role">Research Assistant, Applied Fluid Laboratory</span><span class="cv-date">Apr 2022 – Aug 2023</span></div>
   <div class="cv-org">Kyungpook National University, Daegu, South Korea</div>
+  <div class="cv-sup">Supervisor: <a href="https://scholar.google.com/citations?user=nBR6rDUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Prof. Chang Hyun Sohn</a> · <a href="mailto:chsohn@knu.ac.kr">chsohn@knu.ac.kr</a></div>
   <ul>
     <li>Project: <em>Improved Energy Recovery Performance of Oscillating Wings Using Articulated and Flexible Bodies</em>, funded by the National Research Foundation of Korea (NRF).</li>
     <li>Performed high-Reynolds-number flow simulations using the Lattice Boltzmann Method (LBM).</li>
@@ -67,6 +70,7 @@ redirect_from:
 <div class="cv-entry">
   <div class="cv-head"><span class="cv-role">Research Assistant</span><span class="cv-date">Jan 2020 – Apr 2022</span></div>
   <div class="cv-org">COMSATS University Islamabad, Islamabad, Pakistan</div>
+  <div class="cv-sup">Supervisor: <a href="https://scholar.google.com/citations?hl=en&amp;user=OAp3xVAAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener">Dr. Shams ul Islam</a></div>
   <ul>
     <li>Project: <em>Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</em>, funded by the Higher Education Commission (HEC) of Pakistan.</li>
     <li>Developed single-relaxation-time Lattice Boltzmann (SRT-LBM) simulations in Fortran.</li>
