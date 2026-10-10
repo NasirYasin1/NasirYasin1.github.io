@@ -94,44 +94,13 @@ redirect_from:
   </ul>
 </div>
 
-
 <h2>Research Projects</h2>
 
-<div class="cv-entry">
-  <div class="cv-head">
-    <span class="cv-role" style="font-weight: 400;">Stable Scheme for the Hyperbolic Burgers’ Equation</span>
-    <span class="cv-date">Jan 2024 – Present</span>
-  </div>
-</div>
-
-<div class="cv-entry">
-  <div class="cv-head">
-    <span class="cv-role" style="font-weight: 400;">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span>
-    <span class="cv-date">Dec 2023</span>
-  </div>
-</div>
-
-<div class="cv-entry">
-  <div class="cv-head">
-    <span class="cv-role" style="font-weight: 400;">Image Processing and Compression Using Multiple Algorithms</span>
-    <span class="cv-date">Dec 2023</span>
-  </div>
-</div>
-
-<div class="cv-entry">
-  <div class="cv-head">
-    <span class="cv-role" style="font-weight: 400;">Improved Energy Recovery Performance of Oscillating Wings Using Articulated and Flexible Bodies</span>
-    <span class="cv-date">Apr 2022 – Aug 2023</span>
-  </div>
-</div>
-
-<div class="cv-entry">
-  <div class="cv-head">
-    <span class="cv-role" style="font-weight: 400;">Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</span>
-    <span class="cv-date">Jan 2020 – Apr 2022</span>
-  </div>
-</div>
-
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="cv-date">Jan 2024 – Present</span></div></div>
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span><span class="cv-date">Dec 2023</span></div></div>
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Image Processing and Compression Using Multiple Algorithms</span><span class="cv-date">Dec 2023</span></div></div>
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Improved Energy Recovery Performance of Oscillating Wings Using Articulated and Flexible Bodies</span><span class="cv-date">Apr 2022 – Aug 2023</span></div></div>
+<div class="cv-entry"><div class="cv-head"><span class="cv-role">Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</span><span class="cv-date">Jan 2020 – Apr 2022</span></div></div>
 
 <h2>Talks and Presentations</h2>
 
@@ -145,23 +114,21 @@ redirect_from:
   <div class="cv-org">SEARCDE 2024 Conference, West Virginia University, Morgantown, WV</div>
 </div>
 
-
-
 <h2>Technical Skills</h2>
 
-<div class="cv-entry">
-  <p><strong>Programming:</strong> Python, MATLAB, R, C++, Fortran</p>
-  <p><strong>Numerical Computing:</strong> Lattice Boltzmann Method (LBM), Numerical Methods for PDEs, CUDA</p>
-  <p><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
-</div>
-
-
+<dl class="cv-skills">
+  <dt>Programming</dt><dd>Python, MATLAB, R, C++, Fortran</dd>
+  <dt>High-Performance Computing</dt><dd>CUDA, GPU-accelerated solvers, Linux-based scientific computing</dd>
+  <dt>Numerical Methods</dt><dd>Lattice Boltzmann Method (SRT-LBM), numerical methods for PDEs, stable schemes for hyperbolic equations</dd>
+  <dt>Visualization</dt><dd>Tecplot, MATLAB</dd>
+</dl>
 
 <h2>Graduate Coursework</h2>
 
 <div class="cv-group">Machine Learning and Data Science</div>
 <ul class="cv-cols">
   <li>Machine Learning</li>
+  <li>Genomic Data Science</li>
   <li>Probability Theory for Data Science</li>
   <li>Statistical Theory for Data Science</li>
   <li>Modern Statistical Methods for Big Data Analytics</li>
@@ -170,6 +137,7 @@ redirect_from:
 
 <div class="cv-group">Numerical Analysis and Computational Modeling</div>
 <ul class="cv-cols">
+  <li>Scientific Computing in Applied Mathematics</li>
   <li>Numerical Solution of PDEs</li>
   <li>Numerical Solution of Differential Equations</li>
   <li>Advanced Applied Numerical Methods</li>
