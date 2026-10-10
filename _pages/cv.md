@@ -114,14 +114,18 @@ redirect_from:
   <div class="cv-org">SEARCDE 2024 Conference, West Virginia University, Morgantown, WV</div>
 </div>
 
+
 <h2>Technical Skills</h2>
 
-<dl class="cv-skills">
-  <dt>Programming</dt><dd>Python, MATLAB, R, C++, Fortran</dd>
-  <dt>High-Performance Computing</dt><dd>CUDA, GPU-accelerated solvers, Linux-based scientific computing</dd>
-  <dt>Numerical Methods</dt><dd>Lattice Boltzmann Method (SRT-LBM), numerical methods for PDEs, stable schemes for hyperbolic equations</dd>
-  <dt>Visualization</dt><dd>Tecplot, MATLAB</dd>
-</dl>
+<div class="cv-entry">
+  <p><strong>Programming Languages:</strong> Python, MATLAB, R, C++, Fortran</p>
+
+  <p><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
+
+  <p><strong>Numerical Methods:</strong> Lattice Boltzmann Method (SRT-LBM), Numerical Methods for Partial Differential Equations, Entropy- and Gradient-Stable Schemes</p>
+
+  <p><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
+</div>
 
 <h2>Graduate Coursework</h2>
 
