@@ -10,28 +10,20 @@ redirect_from:
 {% include base_path %}
 
 <style>
-  .cv { --cv-accent: #2f7f93; --cv-muted: #657581; --cv-rule: #dbe5e9; line-height: 1.65; max-width: 100%; }
-  .cv h2 { margin: 2.1em 0 .85em; padding: 0 0 .42em; border-bottom: 1px solid var(--cv-rule); font-size: 1.32em; font-weight: 700; letter-spacing: -.015em; }
-  .cv h2:first-child { margin-top: .45em; }
-  .cv-entry { margin: 0 0 1.35em; }
-  .cv-head { display: flex; align-items: baseline; justify-content: space-between; gap: .35em 1.3em; }
-  .cv-role { min-width: 0; font-weight: 700; line-height: 1.45; }
-  .cv-date { flex: 0 0 auto; white-space: nowrap; color: var(--cv-muted); font-size: .91em; font-variant-numeric: tabular-nums; }
-  .cv-org { margin-top: .14em; font-style: italic; color: var(--cv-muted); }
-  .cv-entry ul { margin: .45em 0 0 1.3em; padding: 0; }
-  .cv-entry li, .cv-cols li { margin-bottom: .34em; padding-left: .1em; }
-  .cv-group { font-weight: 700; color: var(--cv-accent); margin: 1.25em 0 .55em; }
-  .cv-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.1em; row-gap: .12em; margin: 0 0 1.3em; padding-left: 1.35em; }
-  .cv-cols li { min-width: 0; overflow-wrap: anywhere; }
-  .cv-skills { margin: 0; }
-  .cv-skills dt { font-weight: 700; margin-top: .75em; }
-  .cv-skills dd { margin: .12em 0 0 1.2em; }
-  @media (max-width: 700px) {
-    .cv-head { flex-direction: column; align-items: flex-start; gap: .1em; }
-    .cv-date { white-space: normal; }
-    .cv-cols { grid-template-columns: minmax(0, 1fr); }
-    .cv h2 { margin-top: 1.7em; }
-  }
+  .cv h2 { margin-top: 1.8em; padding-bottom: .3em; border-bottom: 1px solid var(--global-border-color); }
+  .cv-entry { margin: 0 0 1.2em; }
+  .cv-head { display: flex; align-items: baseline; gap: 0 1.5em; }
+  .cv-role { flex: 1; font-weight: 700; }
+  .cv-plain .cv-role { font-weight: 400; }
+  .cv-date { flex: none; white-space: nowrap; color: var(--global-text-color-light); }
+  @media (max-width: 600px) { .cv-head { flex-direction: column; } }
+  .cv-org { font-style: italic; }
+  .cv-entry ul { margin: .3em 0 0 1.2em; }
+  .cv-entry li { margin-bottom: .2em; }
+  .cv-skill { margin: 0 0 .4em; }
+  .cv-group { font-weight: 700; margin: .9em 0 .2em; }
+  .cv-cols { columns: 2 16em; column-gap: 2em; margin: 0 0 0 1.2em; }
+  .cv-cols li { break-inside: avoid; }
 </style>
 
 <div class="cv" markdown="0">
@@ -67,7 +59,7 @@ redirect_from:
   <div class="cv-org">Kyungpook National University, Daegu, South Korea</div>
   <ul>
     <li>Project: <em>Improved Energy Recovery Performance of Oscillating Wings Using Articulated and Flexible Bodies</em>, funded by the National Research Foundation of Korea (NRF).</li>
-    <li>Ran high-Reynolds-number flow simulations with the Lattice Boltzmann Method (LBM).</li>
+    <li>Performed high-Reynolds-number flow simulations using the Lattice Boltzmann Method (LBM).</li>
     <li>Developed GPU-accelerated C++ solvers for oscillating-wing energy-recovery applications.</li>
   </ul>
 </div>
@@ -77,9 +69,38 @@ redirect_from:
   <div class="cv-org">COMSATS University Islamabad, Islamabad, Pakistan</div>
   <ul>
     <li>Project: <em>Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</em>, funded by the Higher Education Commission (HEC) of Pakistan.</li>
-    <li>Developed single-relaxation-time LBM (SRT-LBM) simulations in Fortran.</li>
-    <li>Post-processed and visualized results in MATLAB and Tecplot.</li>
+    <li>Developed single-relaxation-time Lattice Boltzmann (SRT-LBM) simulations in Fortran.</li>
+    <li>Post-processed and visualized simulation results in MATLAB and Tecplot.</li>
   </ul>
+</div>
+
+<h2>Research Projects</h2>
+
+<div class="cv-entry cv-plain">
+  <div class="cv-head"><span class="cv-role">Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="cv-date">Jan 2024 – Present</span></div>
+  <div class="cv-org">M.S. Thesis, Old Dominion University</div>
+</div>
+
+<div class="cv-entry cv-plain">
+  <div class="cv-head"><span class="cv-role">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span><span class="cv-date">Dec 2023</span></div>
+  <div class="cv-org">Old Dominion University</div>
+</div>
+
+<div class="cv-entry cv-plain">
+  <div class="cv-head"><span class="cv-role">Image Processing and Compression Using Multiple Algorithms</span><span class="cv-date">Dec 2023</span></div>
+  <div class="cv-org">Old Dominion University</div>
+</div>
+
+<h2>Talks and Presentations</h2>
+
+<div class="cv-entry cv-plain">
+  <div class="cv-head"><span class="cv-role">“Investigation of Flow Dynamics Around Bluff Bodies Using SRT-LBM”</span><span class="cv-date">Mar 2025</span></div>
+  <div class="cv-org">50th Annual New York State Regional Graduate Mathematics Conference, Syracuse University, Syracuse, NY</div>
+</div>
+
+<div class="cv-entry cv-plain">
+  <div class="cv-head"><span class="cv-role">“Flow Patterns Behind Stationary and Moving Bluff Bodies Utilizing the SRT-Lattice Boltzmann Method”</span><span class="cv-date">Nov 2024</span></div>
+  <div class="cv-org">SEARCDE 2024 Conference, West Virginia University, Morgantown, WV</div>
 </div>
 
 <h2>Teaching Experience</h2>
@@ -94,43 +115,13 @@ redirect_from:
   </ul>
 </div>
 
-<h2>Research Projects</h2>
-
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role" style="font-weight:400">Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="cv-date">Jan 2024 – Present</span></div>
-  <div class="cv-org">M.S. Thesis, Old Dominion University</div>
-</div>
-
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role" style="font-weight:400">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span><span class="cv-date">Dec 2023</span></div>
-  <div class="cv-org">Old Dominion University</div>
-</div>
-
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role" style="font-weight:400">Image Processing and Compression Using Multiple Algorithms</span><span class="cv-date">Dec 2023</span></div>
-  <div class="cv-org">Old Dominion University</div>
-</div>
-
-<h2>Talks and Presentations</h2>
-
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Investigation of Flow Dynamics Around Bluff Bodies Using SRT-LBM</span><span class="cv-date">Mar 2025</span></div>
-  <div class="cv-org">50th Annual New York State Regional Graduate Mathematics Conference, Syracuse University, Syracuse, NY</div>
-</div>
-
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Flow Patterns Behind Stationary and Moving Bluff Bodies Utilizing the SRT-Lattice Boltzmann Method</span><span class="cv-date">Nov 2024</span></div>
-  <div class="cv-org">SEARCDE 2024 Conference, West Virginia University, Morgantown, WV</div>
-</div>
-
-
 <h2>Technical Skills</h2>
 
 <div class="cv-entry">
-  <p style="margin:0 0 .4em"><strong>Programming Languages:</strong> Python, MATLAB, R, C++, Fortran</p>
-  <p style="margin:0 0 .4em"><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
-  <p style="margin:0 0 .4em"><strong>Numerical Methods:</strong> Lattice Boltzmann Method, Numerical Methods for Partial Differential Equations</p>
-  <p style="margin:0"><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
+  <p class="cv-skill"><strong>Programming Languages:</strong> Python, MATLAB, R, C++, Fortran</p>
+  <p class="cv-skill"><strong>High-Performance Computing:</strong> CUDA, GPU-Accelerated Computing, Linux</p>
+  <p class="cv-skill"><strong>Numerical Methods:</strong> Lattice Boltzmann Method, Numerical Methods for Partial Differential Equations</p>
+  <p class="cv-skill"><strong>Scientific Visualization:</strong> Tecplot, MATLAB</p>
 </div>
 
 <h2>Graduate Coursework</h2>
@@ -138,7 +129,6 @@ redirect_from:
 <div class="cv-group">Machine Learning and Data Science</div>
 <ul class="cv-cols">
   <li>Machine Learning</li>
-  <li>Genomic Data Science</li>
   <li>Probability Theory for Data Science</li>
   <li>Statistical Theory for Data Science</li>
   <li>Modern Statistical Methods for Big Data Analytics</li>
@@ -147,7 +137,6 @@ redirect_from:
 
 <div class="cv-group">Numerical Analysis and Computational Modeling</div>
 <ul class="cv-cols">
-  <li>Scientific Computing in Applied Mathematics</li>
   <li>Numerical Solution of PDEs</li>
   <li>Numerical Solution of Differential Equations</li>
   <li>Advanced Applied Numerical Methods</li>
