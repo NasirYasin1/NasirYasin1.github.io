@@ -135,26 +135,27 @@ redirect_from:
 
 <div class="cv-group">Machine Learning and Data Science</div>
 <ul class="cv-cols">
+  <li>Large-Scale Optimization</li>
+  <li>Genomic Data Science</li>
   <li>Machine Learning</li>
   <li>Probability Theory for Data Science</li>
   <li>Statistical Theory for Data Science</li>
   <li>Modern Statistical Methods for Big Data Analytics</li>
-  <li>Large-Scale Optimization</li>
-  <li>Genomic Data Science</li>
+  
 </ul>
 
 <div class="cv-group">Numerical Analysis and Computational Modeling</div>
 <ul class="cv-cols">
+  <li>Scientific Computing in Applied Mathematics</li>
+  <li>Advanced Applied Numerical Methods</li>
   <li>Numerical Solution of PDEs</li>
   <li>Numerical Solution of Differential Equations</li>
-  <li>Advanced Applied Numerical Methods</li>
   <li>Numerical Linear Algebra</li>
   <li>Computational Linear Algebra</li>
   <li>Perturbation Methods</li>
   <li>Viscous Fluid Flow</li>
   <li>Heat Transfer</li>
   <li>Elastodynamics</li>
-  <li>Scientific Computing in Applied Mathematics</li>
 </ul>
 
 <div class="cv-group">Mathematical Analysis</div>
