@@ -1,11 +1,63 @@
 ---
 layout: archive
-title: ""
+title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
+
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<style>
+  .tc h2 { margin-top: 1.6em; padding-bottom: .3em; border-bottom: 1px solid var(--global-border-color); }
+  .tc-entry { margin: 0 0 1.4em; }
+  .tc-head { display: flex; align-items: baseline; gap: 0 1.5em; }
+  .tc-role { flex: 1; font-weight: 700; }
+  .tc-date { flex: none; white-space: nowrap; color: var(--global-text-color-light); }
+  @media (max-width: 600px) { .tc-head { flex-direction: column; } }
+  .tc-org { font-style: italic; }
+  .tc-entry ul { margin: .4em 0 0 1.2em; }
+  .tc-entry li { margin-bottom: .25em; }
+  .tc-group { font-weight: 700; color: #2f7f93; margin: 1.2em 0 .4em; }
+  html[data-theme="dark"] .tc-group { color: #5cc6df; }
+  .tc-courses { list-style: none; margin: 0; padding: 0; }
+  .tc-courses li { display: flex; gap: 1em; padding: .45em 0; border-bottom: 1px solid var(--global-border-color); }
+  .tc-courses li:last-child { border-bottom: none; }
+  .tc-code { flex: none; width: 6.5em; font-weight: 700; }
+</style>
+
+<div class="tc" markdown="0">
+
+<h2>Teaching Experience</h2>
+
+<div class="tc-entry">
+  <div class="tc-head"><span class="tc-role">Graduate Instructor, MATH 103 College Algebra</span><span class="tc-date">Fall 2026 – Present</span></div>
+  <div class="tc-org">Department of Mathematics and Statistics, Old Dominion University, Norfolk, VA, USA</div>
+  <ul>
+    <li>Serve as course instructor for MATH 103 College Algebra, teaching undergraduate students.</li>
+    <li>Deliver lectures on functions and graphs, polynomial, rational, exponential and logarithmic functions, and systems of equations.</li>
+    <li>Prepare and grade assignments, quizzes and exams, and evaluate student progress.</li>
+    <li>Hold office hours to support students individually.</li>
+  </ul>
+</div>
+
+<div class="tc-entry">
+  <div class="tc-head"><span class="tc-role">Graduate Teaching Assistant, Supplemental Instruction (SI) Leader</span><span class="tc-date">Fall 2023 – Present</span></div>
+  <div class="tc-org">Department of Mathematics and Statistics, Old Dominion University, Norfolk, VA, USA</div>
+  <ul>
+    <li>Lead Supplemental Instruction sessions built around structured problem solving.</li>
+    <li>Support students in the Applied Calculus Lab and the SMART Room.</li>
+    <li>Provide online tutoring for undergraduate mathematics courses.</li>
+  </ul>
+</div>
+
+<div class="tc-group">Courses Supported</div>
+<ul class="tc-courses">
+  <li><span class="tc-code">MATH 212</span><span>Calculus</span></li>
+  <li><span class="tc-code">MATH 205</span><span>Calculus for Life Sciences</span></li>
+  <li><span class="tc-code">MATH 200</span><span>Calculus for Business and Economics</span></li>
+  <li><span class="tc-code">MATH 162</span><span>Precalculus</span></li>
+  <li><span class="tc-code">MATH 103</span><span>College Algebra</span></li>
+  <li><span class="tc-code">MATH 100</span><span>Introduction to Mathematics for Critical Thinking</span></li>
+</ul>
+
+</div>
