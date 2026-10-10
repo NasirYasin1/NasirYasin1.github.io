@@ -86,7 +86,12 @@ redirect_from:
     <li>Post-processed and visualized simulation results in MATLAB and Tecplot.</li>
   </ul>
 </div>
+<h2>Research Projects</h2>
 
+<div class="cv-entry cv-plain">
+  <div class="cv-head"><span class="cv-role">Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="cv-date">Jan 2024 – Present</span></div>
+  <div class="cv-org">M.S. Thesis, <a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a></div>
+</div>
 <div class="cv-entry cv-plain">
   <div class="cv-head">
     <span class="cv-role">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span>
