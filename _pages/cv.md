@@ -100,5 +100,3 @@ redirect_from:
   <li>Fixed Point Theory</li>
   <li>Engineering Analysis</li>
 </ul>
-
-</div>
