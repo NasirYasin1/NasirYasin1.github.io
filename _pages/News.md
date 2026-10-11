@@ -24,7 +24,15 @@ author_profile: true
     <span>Started teaching <strong>MATH 103: College Algebra</strong> as a Graduate Instructor at Old Dominion University.</span>
   </li>
   <li>
-    <span class="news-date">2025</span>
+    <span class="news-date">Fall 2026</span>
+    <span>Began my <strong>Ph.D. research</strong> in Applied and Computational Mathematics at Old Dominion University.</span>
+  </li>
+  <li>
+    <span class="news-date">Aug 2026</span>
+    <span>Passed the <strong>Ph.D. Candidacy Exam</strong> in Applied and Computational Mathematics at Old Dominion University.</span>
+  </li>
+  <li>
+    <span class="news-date">Aug 2025</span>
     <span>Completed my <strong>M.S. in Applied and Computational Mathematics</strong> at Old Dominion University with the thesis <em>Entropy and Gradient Stable Scheme for Hyperbolic Burgers’ Equation</em>.</span>
   </li>
   <li>
@@ -37,6 +45,6 @@ author_profile: true
   </li>
   <li>
     <span class="news-date">Fall 2023</span>
-    <span>Joined Old Dominion University and began serving as a Supplemental Instruction (SI) Leader for undergraduate mathematics courses.</span>
+    <span>Joined Old Dominion University, began <strong>graduate research</strong> in computational mathematics, and started serving as a Supplemental Instruction (SI) Leader for undergraduate mathematics courses.</span>
   </li>
 </ul>
