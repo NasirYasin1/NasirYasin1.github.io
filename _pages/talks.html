@@ -1,16 +1,47 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<style>
+  .talks-list { margin-top: 1.2em; }
+  .talk-entry { padding: 0 0 1.5em; margin: 0 0 1.5em; border-bottom: 1px solid #dbe5e9; }
+  .talk-entry:last-child { border-bottom: none; }
+  .talk-title { margin: 0 0 .4em; font-size: 1.12em; font-weight: 600; line-height: 1.45; }
+  .talk-title a { color: inherit; text-decoration: none; border-bottom: none; }
+  .talk-title a:hover, .talk-title a:focus { color: #2f7f93; text-decoration: underline; }
+  .talk-venue { line-height: 1.55; margin-bottom: .3em; }
+  .talk-meta { color: #657581; font-size: .91em; line-height: 1.5; }
+  .talk-excerpt { margin-top: .55em; font-size: .95em; }
+  html[data-theme="dark"] .talk-title a:hover,
+  html[data-theme="dark"] .talk-title a:focus { color: #5cc6df; }
+  @media (max-width: 700px) { .talk-title { font-size: 1.04em; } }
+</style>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<div class="talks-list">
+{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
+{% for post in sorted_talks %}
+  <article class="talk-entry">
+    <h2 class="talk-title">
+      {% if post.link %}
+        <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {% endif %}
+    </h2>
+    {% if post.venue %}
+      <div class="talk-venue">{{ post.venue }}</div>
+    {% endif %}
+    <div class="talk-meta">
+      {% if post.date %}{{ post.date | date: '%B %-d, %Y' }}{% endif %}
+      {% if post.date and post.location %} · {% endif %}
+      {% if post.location %}{{ post.location }}{% endif %}
+    </div>
+    {% if post.excerpt %}
+      <div class="talk-excerpt">{{ post.excerpt | markdownify }}</div>
+    {% endif %}
+  </article>
 {% endfor %}
+</div>
