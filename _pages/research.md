@@ -65,11 +65,6 @@ author_profile: true
 <h2>Graduate Course Projects</h2>
 
 <div class="research-entry research-project">
-  <div class="research-head"><span class="research-title">Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="research-date">Jan 2024 – Present</span></div>
-  <div class="research-org">M.S. Thesis, <a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a></div>
-</div>
-
-<div class="research-entry research-project">
   <div class="research-head"><span class="research-title">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span><span class="research-date">Dec 2023</span></div>
   <div class="research-org">Graduate Course Project, <a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a></div>
 </div>
