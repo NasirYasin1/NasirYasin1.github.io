@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Nasir's Homepage"
 title_separator          : "-"
 name                     : &name "Nasir Yasin"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Nasir Yasin's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://nasiryasin1.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,11 @@ author:
   avatar           : "nasi123.png"
   name             : "Nasir Yasin"
   pronouns         : # example: "she/her"  
-  bio              : "Machine learning | Computational Fluid Dynamics | Numerical Analysis and Modeling|"
-  location         : "Norfolk, USA"
+  bio              : "Machine Learning | Computational Fluid Dynamics | Numerical Analysis and Modeling"
+  location         : "Norfolk, VA, USA"
+  location_url     : "https://www.google.com/maps/place/Norfolk,+VA"
   employer         : "Old Dominion University"
+  employer_url     : "https://www.odu.edu/"
   uri              : # URL
   email            : "nyasin@odu.edu" 
 
