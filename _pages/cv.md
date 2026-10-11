@@ -87,6 +87,14 @@ redirect_from:
   </ul>
 </div>
 
+<h2>Publications</h2>
+
+<ol style="margin:0 0 0 1.4em; padding:0;" reversed>
+  <li style="margin-bottom:.9em;"><strong>N. Yasin</strong>, S. Ahmad, M. Umair, Z. Shah, N. Vrinceanu, G. Alhawael. “Investigations of conjugate heat transfer and fluid flow in partitioned porous cavity using Darcy-Forchheimer model: Finite element-based computations.” <em>Case Studies in Thermal Engineering</em>, 72, 106252, 2025. <a href="https://doi.org/10.1016/j.csite.2025.106252" target="_blank" rel="noopener noreferrer">DOI</a></li>
+  <li style="margin-bottom:.9em;">M. Abid, <strong>N. Yasin</strong>, M. Saqlain, S. Ul-Islam, S. Ahmad. “Numerical investigation and statistical analysis of the flow patterns behind square cylinders arranged in a staggered configuration utilizing the lattice Boltzmann method.” <em>Journal of Applied Fluid Mechanics</em>, 17(9), 1820–1843, 2024. <a href="https://doi.org/10.47176/jafm.17.9.2390" target="_blank" rel="noopener noreferrer">DOI</a></li>
+  <li style="margin-bottom:.9em;">M. Abid, M. Bibi, <strong>N. Yasin</strong>, M. Shahid. “A novel computational analysis of boundary-driven two-dimensional heat flow with internal heat generation.” <em>Computational Algorithms and Numerical Dimensions</em>, 3(1), 1–16, 2024. <a href="https://doi.org/10.22105/cand.2024.443017.1090" target="_blank" rel="noopener noreferrer">DOI</a></li>
+</ol>
+
 <h2>Research Projects</h2>
 
 <div class="cv-entry cv-plain">
