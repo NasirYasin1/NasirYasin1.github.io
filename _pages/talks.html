@@ -1,47 +1,65 @@
 ---
 layout: archive
-title: "Talks and Presentations"
+title: "Conferences"
 permalink: /talks/
 author_profile: true
 ---
 
 <style>
-  .talks-list { margin-top: 1.2em; }
-  .talk-entry { padding: 0 0 1.5em; margin: 0 0 1.5em; border-bottom: 1px solid #dbe5e9; }
-  .talk-entry:last-child { border-bottom: none; }
-  .talk-title { margin: 0 0 .4em; font-size: 1.12em; font-weight: 600; line-height: 1.45; }
-  .talk-title a { color: inherit; text-decoration: none; border-bottom: none; }
-  .talk-title a:hover, .talk-title a:focus { color: #2f7f93; text-decoration: underline; }
-  .talk-venue { line-height: 1.55; margin-bottom: .3em; }
-  .talk-meta { color: #657581; font-size: .91em; line-height: 1.5; }
-  .talk-excerpt { margin-top: .55em; font-size: .95em; }
-  html[data-theme="dark"] .talk-title a:hover,
-  html[data-theme="dark"] .talk-title a:focus { color: #5cc6df; }
-  @media (max-width: 700px) { .talk-title { font-size: 1.04em; } }
+  .conference-list {
+    margin: 1.2em 0 0;
+    padding-left: 1.25em;
+    line-height: 1.6;
+  }
+  .conference-list li {
+    padding-left: .2em;
+    margin-bottom: 1.65em;
+  }
+  .conference-name {
+    font-weight: 700;
+    line-height: 1.45;
+  }
+  .conference-name a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #b9cdd5;
+  }
+  .conference-name a:hover,
+  .conference-name a:focus {
+    color: #2f7f93;
+    border-bottom-color: currentColor;
+  }
+  .conference-detail {
+    margin-top: .2em;
+  }
+  .conference-meta {
+    color: #657581;
+    font-size: .92em;
+    margin-top: .15em;
+  }
+  .conference-presentation {
+    margin-top: .35em;
+  }
+  @media (max-width: 700px) {
+    .conference-list { padding-left: 1.1em; }
+  }
 </style>
 
-<div class="talks-list">
-{% assign sorted_talks = site.talks | sort: 'date' | reverse %}
-{% for post in sorted_talks %}
-  <article class="talk-entry">
-    <h2 class="talk-title">
-      {% if post.link %}
-        <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ post.title }}</a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      {% endif %}
-    </h2>
-    {% if post.venue %}
-      <div class="talk-venue">{{ post.venue }}</div>
-    {% endif %}
-    <div class="talk-meta">
-      {% if post.date %}{{ post.date | date: '%B %-d, %Y' }}{% endif %}
-      {% if post.date and post.location %} · {% endif %}
-      {% if post.location %}{{ post.location }}{% endif %}
+<ul class="conference-list">
+  <li>
+    <div class="conference-name">
+      <a href="https://mgo.syr.edu/conferences/past-conferences/2025-conference/" target="_blank" rel="noopener noreferrer">50th Annual New York State Regional Graduate Mathematics Conference</a>
     </div>
-    {% if post.excerpt %}
-      <div class="talk-excerpt">{{ post.excerpt | markdownify }}</div>
-    {% endif %}
-  </article>
-{% endfor %}
-</div>
+    <div class="conference-detail">Syracuse University, Syracuse, NY, USA</div>
+    <div class="conference-meta">March 29, 2025</div>
+    <div class="conference-presentation"><strong>Presentation:</strong> Investigation of Flow Dynamics Around Bluff Bodies Using SRT-LBM</div>
+  </li>
+  <li>
+    <div class="conference-name">
+      <a href="https://mathanddata.wvu.edu/searcde-2024/conference-schedule-searcde-2024" target="_blank" rel="noopener noreferrer">SEARCDE 2024 Conference</a>
+    </div>
+    <div class="conference-detail">West Virginia University, Morgantown, WV, USA</div>
+    <div class="conference-meta">2024</div>
+    <div class="conference-presentation"><strong>Presentation:</strong> Flow Patterns Behind Stationary and Moving Bluff Bodies Utilizing the SRT-Lattice Boltzmann Method</div>
+  </li>
+</ul>
