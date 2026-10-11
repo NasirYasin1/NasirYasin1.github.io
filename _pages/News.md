@@ -21,7 +21,7 @@ author_profile: true
 <ul class="news" markdown="0">
   <li>
     <span class="news-date">Fall 2026</span>
-    <span>Started teaching <strong>MATH 103: College Algebra</strong> as a Graduate Instructor at Old Dominion University.</span>
+    <span>Began serving as <strong>Instructor</strong> for MATH 103: College Algebra at Old Dominion University (ODU), with full responsibility for the course.</span>
   </li>
   <li>
     <span class="news-date">Fall 2026</span>
