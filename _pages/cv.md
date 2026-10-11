@@ -63,66 +63,6 @@ redirect_from:
   <div class="cv-org"><a href="https://www.iiu.edu.pk/" target="_blank" rel="noopener noreferrer">International Islamic University Islamabad</a>, Islamabad, Pakistan</div>
 </div>
 
-<h2>Research Experience</h2>
-
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Research Assistant, Applied Fluid Laboratory</span><span class="cv-date">Apr 2022 – Aug 2023</span></div>
-  <div class="cv-org"><a href="https://en.knu.ac.kr/main/main.htm" target="_blank" rel="noopener noreferrer">Kyungpook National University</a>, Daegu, South Korea</div>
-  <div class="cv-sup">Supervisor: <a href="https://scholar.google.com/citations?user=nBR6rDUAAAAJ&amp;hl=en" target="_blank" rel="noopener">Prof. Chang Hyun Sohn</a> · <a href="mailto:chsohn@knu.ac.kr">chsohn@knu.ac.kr</a></div>
-  <ul>
-    <li>Project: <em>Improved Energy Recovery Performance of Oscillating Wings Using Articulated and Flexible Bodies</em>, funded by the National Research Foundation of Korea (NRF).</li>
-    <li>Performed high-Reynolds-number flow simulations using the Lattice Boltzmann Method (LBM).</li>
-    <li>Developed GPU-accelerated C++ solvers for oscillating-wing energy-recovery applications.</li>
-  </ul>
-</div>
-
-<div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Research Assistant</span><span class="cv-date">Jan 2020 – Apr 2022</span></div>
-  <div class="cv-org"><a href="https://www.comsats.edu.pk/" target="_blank" rel="noopener noreferrer">COMSATS University Islamabad</a>, Islamabad, Pakistan</div>
-  <div class="cv-sup">Supervisor: <a href="https://scholar.google.com/citations?hl=en&amp;user=OAp3xVAAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener">Prof. Shams ul Islam</a> · <a href="mailto:islam_shams@comsats.edu.pk">islam_shams@comsats.edu.pk</a></div>
-  <ul>
-    <li>Project: <em>Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</em>, funded by the Higher Education Commission (HEC) of Pakistan.</li>
-    <li>Developed single-relaxation-time Lattice Boltzmann (SRT-LBM) simulations in Fortran.</li>
-    <li>Post-processed and visualized simulation results in MATLAB and Tecplot.</li>
-  </ul>
-</div>
-
-<h2>Publications</h2>
-
-<ol style="margin:0 0 0 1.4em; padding:0;" reversed>
-  <li style="margin-bottom:.9em;"><strong>N. Yasin</strong>, S. Ahmad, M. Umair, Z. Shah, N. Vrinceanu, G. Alhawael. “Investigations of conjugate heat transfer and fluid flow in partitioned porous cavity using Darcy-Forchheimer model: Finite element-based computations.” <em>Case Studies in Thermal Engineering</em>, 72, 106252, 2025. <a href="https://doi.org/10.1016/j.csite.2025.106252" target="_blank" rel="noopener noreferrer">DOI</a></li>
-  <li style="margin-bottom:.9em;">M. Abid, <strong>N. Yasin</strong>, M. Saqlain, S. Ul-Islam, S. Ahmad. “Numerical investigation and statistical analysis of the flow patterns behind square cylinders arranged in a staggered configuration utilizing the lattice Boltzmann method.” <em>Journal of Applied Fluid Mechanics</em>, 17(9), 1820–1843, 2024. <a href="https://doi.org/10.47176/jafm.17.9.2390" target="_blank" rel="noopener noreferrer">DOI</a></li>
-  <li style="margin-bottom:.9em;">M. Abid, M. Bibi, <strong>N. Yasin</strong>, M. Shahid. “A novel computational analysis of boundary-driven two-dimensional heat flow with internal heat generation.” <em>Computational Algorithms and Numerical Dimensions</em>, 3(1), 1–16, 2024. <a href="https://doi.org/10.22105/cand.2024.443017.1090" target="_blank" rel="noopener noreferrer">DOI</a></li>
-</ol>
-
-<h2>Research Projects</h2>
-
-<div class="cv-entry cv-plain">
-  <div class="cv-head"><span class="cv-role">Entropy and Gradient Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="cv-date">Jan 2024 – 2025</span></div>
-  <div class="cv-org">M.S. Thesis, Old Dominion University</div>
-</div>
-
-<div class="cv-entry cv-plain">
-  <div class="cv-head"><span class="cv-role">Convergence and Performance Comparison of Numerical Solvers for Sparse Resistor-Network Linear Systems</span><span class="cv-date">Dec 2023</span></div>
-  <div class="cv-org">Course Project, Old Dominion University</div>
-</div>
-
-<div class="cv-entry cv-plain">
-  <div class="cv-head"><span class="cv-role">Image Processing and Compression Using Multiple Algorithms</span><span class="cv-date">Dec 2023</span></div>
-  <div class="cv-org">Course Project, Old Dominion University</div>
-</div>
-
-
-<h2>Talks and Presentations</h2>
-
-<div class="cv-entry cv-plain">
-  <div class="cv-head"><span class="cv-role">“Investigation of Flow Dynamics Around Bluff Bodies Using SRT-LBM”</span><span class="cv-date">Mar 2025</span></div>
-  <div class="cv-org"><a href="https://mgo.syr.edu/conferences/past-conferences/2025-conference/" target="_blank" rel="noopener noreferrer">50th Annual New York State Regional Graduate Mathematics Conference</a>, <a href="https://www.syracuse.edu/" target="_blank" rel="noopener noreferrer">Syracuse University</a>, Syracuse, NY</div>
-</div>
-
-<div class="cv-entry cv-plain">
-  <div class="cv-head"><span class="cv-role">“Flow Patterns Behind Stationary and Moving Bluff Bodies Utilizing the SRT-Lattice Boltzmann Method”</span><span class="cv-date">Nov 2024</span></div>
-  <div class="cv-org"><a href="https://mathanddata.wvu.edu/searcde-2024" target="_blank" rel="noopener noreferrer">SEARCDE 2024 Conference</a>, <a href="https://www.wvu.edu/" target="_blank" rel="noopener noreferrer">West Virginia University</a>, Morgantown, WV</div>
 </div>
 
 <h2>Graduate Coursework</h2>
