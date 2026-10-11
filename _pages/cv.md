@@ -101,7 +101,13 @@ redirect_from:
 
 <div class="cv-entry">
   <div class="cv-role" style="font-weight: 400;">
-    King's Scholarship
+    <a href="https://en.knu.ac.kr/admission/foreign02_inc.htm"
+       target="_blank" rel="noopener">
+      KNU International Graduate Scholarship (KINGS)
+    </a>
+  </div>
+  <div class="cv-org">
+    Kyungpook National University, South Korea
   </div>
 </div>
 
