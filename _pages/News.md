@@ -44,6 +44,10 @@ author_profile: true
     <span>Presented “Flow Patterns Behind Stationary and Moving Bluff Bodies Utilizing the SRT-Lattice Boltzmann Method” at <a href="https://mathanddata.wvu.edu/searcde-2024" target="_blank" rel="noopener noreferrer">SEARCDE 2024</a>, West Virginia University.</span>
   </li>
   <li>
+    <span class="news-date">Sep 2024</span>
+    <span>Elected <strong>President of the ODU SIAM Student Chapter</strong> (Society for Industrial and Applied Mathematics) at Old Dominion University.</span>
+  </li>
+  <li>
     <span class="news-date">Fall 2023</span>
     <span>Joined Old Dominion University, began <strong>graduate research</strong> in computational mathematics, and started serving as a Supplemental Instruction (SI) Leader for undergraduate mathematics courses.</span>
   </li>
