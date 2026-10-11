@@ -43,7 +43,7 @@ author_profile: true
 <div class="research-entry">
   <div class="research-head"><span class="research-title">Research Assistant, Applied Fluid Laboratory</span><span class="research-date">Apr 2022 – Aug 2023</span></div>
   <div class="research-org"><a href="https://en.knu.ac.kr/main/main.htm" target="_blank" rel="noopener noreferrer">Kyungpook National University</a>, Daegu, South Korea</div>
-  <div class="research-supervisor">Supervisor: <a href="https://scholar.google.com/citations?user=nBR6rDUAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Chang Hyun Sohn</a></div>
+  <div class="research-supervisor">Supervisor: <a href="https://scholar.google.com/citations?user=nBR6rDUAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Prof. Chang Hyun Sohn</a> · <a href="mailto:chsohn@knu.ac.kr">chsohn@knu.ac.kr</a></div>
   <ul>
     <li>Worked on <em>Improved Energy Recovery Performance of Oscillating Wings Using Articulated and Flexible Bodies</em>, funded by the National Research Foundation of Korea (NRF).</li>
     <li>Performed high-Reynolds-number flow simulations using the Lattice Boltzmann Method (LBM).</li>
@@ -54,7 +54,7 @@ author_profile: true
 <div class="research-entry">
   <div class="research-head"><span class="research-title">Research Assistant</span><span class="research-date">Jan 2020 – Apr 2022</span></div>
   <div class="research-org"><a href="https://www.comsats.edu.pk/" target="_blank" rel="noopener noreferrer">COMSATS University Islamabad</a>, Islamabad, Pakistan</div>
-  <div class="research-supervisor">Supervisor: <a href="https://scholar.google.com/citations?hl=en&amp;user=OAp3xVAAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener noreferrer">Prof. Shams ul Islam</a></div>
+  <div class="research-supervisor">Supervisor: <a href="https://scholar.google.com/citations?hl=en&amp;user=OAp3xVAAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener noreferrer">Prof. Shams ul Islam</a> · <a href="mailto:islam_shams@comsats.edu.pk">islam_shams@comsats.edu.pk</a></div>
   <ul>
     <li>Worked on <em>Numerical Study of Wake and Thrust Around Multiple Cylinders at Moderate Reynolds Numbers for Various Configurations</em>, funded by the Higher Education Commission (HEC) of Pakistan.</li>
     <li>Developed single-relaxation-time Lattice Boltzmann (SRT-LBM) simulations in Fortran.</li>
