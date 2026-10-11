@@ -31,9 +31,17 @@ author_profile: true
     <span class="news-date">Aug 2026</span>
     <span>Passed the <strong>Ph.D. Candidacy Exam</strong> in Applied and Computational Mathematics at Old Dominion University.</span>
   </li>
+    <li>
+    <span class="news-date">Apr 2026</span>
+    <span>Co-organized the <strong>Math Awareness Conference</strong> at Old Dominion University for the second year as President of the SIAM Student Chapter, together with fellow students from the SIAM Student Chapter and the Math and Statistics Club.</span>
+  </li>
   <li>
     <span class="news-date">Aug 2025</span>
     <span>Completed my <strong>M.S. in Applied and Computational Mathematics</strong> at Old Dominion University with the thesis <em>Entropy and Gradient Stable Scheme for Hyperbolic Burgers’ Equation</em>.</span>
+  </li>
+   <li>
+    <span class="news-date">Apr 2025</span>
+    <span>Co-organized the <strong>Math Awareness Conference</strong> at Old Dominion University as President of the SIAM Student Chapter, together with fellow students from the SIAM Student Chapter and the Math and Statistics Club.</span>
   </li>
   <li>
     <span class="news-date">Mar 2025</span>
