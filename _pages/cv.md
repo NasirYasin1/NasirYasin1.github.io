@@ -104,13 +104,6 @@ redirect_from:
   <div class="cv-org">Course Project, Old Dominion University</div>
 </div>
 
-<div class="cv-entry cv-plain">
-  <div class="cv-head">
-    <span class="cv-role">Image Processing and Compression Using Multiple Algorithms</span>
-    <span class="cv-date">Dec 2023</span>
-  </div>
-  <div class="cv-org">Course Project, <a href="https://www.odu.edu" target="_blank" rel="noopener">Old Dominion University</a></div>
-</div>
 
 <h2>Talks and Presentations</h2>
 
