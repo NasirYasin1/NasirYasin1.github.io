@@ -62,7 +62,7 @@ author_profile: true
   </ul>
 </div>
 
-<h2>Research and Graduate Course Projects</h2>
+<h2>Graduate Course Projects</h2>
 
 <div class="research-entry research-project">
   <div class="research-head"><span class="research-title">Stable Scheme for the Hyperbolic Burgers’ Equation</span><span class="research-date">Jan 2024 – Present</span></div>
