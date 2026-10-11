@@ -10,30 +10,51 @@ redirect_from:
 {% include base_path %}
 
 <style>
-  .cv h2 { margin-top: 1.8em; padding-bottom: .3em; border-bottom: 1px solid var(--global-border-color); }
-  .cv-entry { margin: 0 0 1.2em; }
-  .cv-head { display: flex; align-items: baseline; gap: 0 1.5em; }
-  .cv-role { flex: 1; font-weight: 700; }
-  .cv-plain .cv-role { font-weight: 400; }
-  .cv-date { flex: none; white-space: nowrap; color: var(--global-text-color-light); }
-  @media (max-width: 600px) { .cv-head { flex-direction: column; } }
+  .cv { --cv-accent: #2f7f93; --cv-muted: #657581; --cv-rule: #dbe5e9; line-height: 1.6; }
+  .cv h2 {
+    margin: 1.8em 0 .75em;
+    padding-bottom: .35em;
+    border-bottom: 1px solid var(--cv-rule);
+    font-size: 1.26em;
+    font-weight: 700;
+  }
+  .cv h2:first-child { margin-top: .45em; }
+  .cv h2::before {
+    content: "•";
+    color: var(--cv-accent);
+    font-size: .75em;
+    margin-right: .6em;
+    vertical-align: middle;
+  }
+  .cv-entry { margin: 0 0 1.25em; }
+  .cv-head { display: flex; align-items: baseline; justify-content: space-between; gap: .3em 1.3em; }
+  .cv-role { min-width: 0; font-weight: 700; line-height: 1.4; }
+  .cv-date { flex: 0 0 auto; white-space: nowrap; color: var(--cv-muted); font-size: .92em; }
+  .cv-concentration { margin-top: .15em; }
   .cv-org { font-style: italic; }
   .cv-org a { color: inherit; text-decoration: none; border-bottom: 1px solid #b9cbd1; }
-  .cv-org a:hover, .cv-org a:focus { color: #2f7f93; border-bottom-color: #2f7f93; }
-  html[data-theme="dark"] .cv-org a:hover,
-  html[data-theme="dark"] .cv-org a:focus { color: #5cc6df; border-bottom-color: #5cc6df; }
-  .cv-concentration { margin-top: .2em; font-size: .95em; line-height: 1.5; }
-  .cv-concentration strong { font-weight: 600; }
-  .cv-sup { margin-top: .1em; }
-  .cv-sup a { color: #2f7f93; text-decoration: none; border-bottom: none; }
-  .cv-sup a:hover { text-decoration: underline; }
-  html[data-theme="dark"] .cv-sup a { color: #5cc6df; }
-  .cv-entry ul { margin: .3em 0 0 1.2em; }
+  .cv-org a:hover, .cv-org a:focus { color: var(--cv-accent); border-bottom-color: currentColor; }
+  .cv-entry ul { margin: .3em 0 0 1.3em; padding: 0; }
   .cv-entry li { margin-bottom: .2em; }
-  .cv-skill { margin: 0 0 .4em; }
-  .cv-group { font-weight: 700; color: #2f7f93; margin: 1.2em 0 .4em; }
-  html[data-theme="dark"] .cv-group { color: #5cc6df; }
-  .cv-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 2.5em; row-gap: .3em; margin: 0 0 0 1.2em; padding: 0; }
+  .cv-award a { color: var(--cv-accent); text-decoration: none; border-bottom: 1px solid #b9cbd1; }
+  .cv-award a:hover, .cv-award a:focus { border-bottom-color: currentColor; }
+  .cv-award-desc { margin-top: .15em; color: var(--cv-muted); }
+  .cv-group { margin: 1.2em 0 .5em; color: var(--cv-accent); font-weight: 700; }
+  .cv-cols {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2.2em;
+    row-gap: .25em;
+    padding-left: 1.25em;
+    margin: 0 0 1.1em;
+  }
+  .cv-cols li { min-width: 0; overflow-wrap: break-word; }
+  html[data-theme="dark"] .cv { --cv-accent: #5cc6df; --cv-muted: #acb8bf; --cv-rule: #48555c; }
+  @media (max-width: 700px) {
+    .cv-head { flex-direction: column; align-items: flex-start; gap: .1em; }
+    .cv-date { white-space: normal; }
+    .cv-cols { grid-template-columns: minmax(0, 1fr); }
+  }
 </style>
 
 <div class="cv" markdown="0">
@@ -41,44 +62,46 @@ redirect_from:
 <h2>Education</h2>
 
 <div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">Ph.D., Applied and Computational Mathematics</span><span class="cv-date">Expected 2028</span></div>
+  <div class="cv-head">
+    <span class="cv-role">Ph.D., Applied and Computational Mathematics</span>
+    <span class="cv-date">Expected 2028</span>
+  </div>
   <div class="cv-concentration"><strong>Concentration:</strong> Mathematics of Data Science</div>
   <div class="cv-org"><a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a>, Norfolk, VA, USA</div>
 </div>
 
 <div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">M.S., Applied and Computational Mathematics</span><span class="cv-date">2023 – 2025</span></div>
+  <div class="cv-head">
+    <span class="cv-role">M.S., Applied and Computational Mathematics</span>
+    <span class="cv-date">2023 – 2025</span>
+  </div>
   <div class="cv-org"><a href="https://www.odu.edu/" target="_blank" rel="noopener noreferrer">Old Dominion University</a>, Norfolk, VA, USA</div>
   <ul><li>Thesis: <em>Entropy and Gradient Stable Scheme for Hyperbolic Burgers’ Equation</em></li></ul>
 </div>
 
 <div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">M.S., Mathematics</span><span class="cv-date">2019 – 2021</span></div>
+  <div class="cv-head">
+    <span class="cv-role">M.S., Mathematics</span>
+    <span class="cv-date">2019 – 2021</span>
+  </div>
   <div class="cv-org"><a href="https://www.comsats.edu.pk/" target="_blank" rel="noopener noreferrer">COMSATS University Islamabad</a>, Islamabad, Pakistan</div>
   <ul><li>Research: Flow features and force statistics for flow past multiple bluff bodies</li></ul>
 </div>
 
 <div class="cv-entry">
-  <div class="cv-head"><span class="cv-role">B.S., Mathematics</span><span class="cv-date">2014 – 2018</span></div>
+  <div class="cv-head">
+    <span class="cv-role">B.S., Mathematics</span>
+    <span class="cv-date">2014 – 2018</span>
+  </div>
   <div class="cv-org"><a href="https://www.iiu.edu.pk/" target="_blank" rel="noopener noreferrer">International Islamic University Islamabad</a>, Islamabad, Pakistan</div>
-</div>
-
 </div>
 
 <h2>Honors &amp; Awards</h2>
 
-<div class="cv-entry">
-  <div class="cv-role" style="font-weight: 400;">
-    <a href="https://www.hec.gov.pk/english/services/students/pmnls/Pages/default.aspx"
-       target="_blank" rel="noopener">
-      Prime Minister's Laptop Scheme
-    </a>
-  </div>
-  <div class="cv-org">
-    Awarded in recognition of academic performance, Pakistan
-  </div>
+<div class="cv-entry cv-award">
+  <a href="https://www.hec.gov.pk/english/services/students/pmnls/Pages/default.aspx" target="_blank" rel="noopener noreferrer">Prime Minister's Laptop Scheme</a>
+  <div class="cv-award-desc">Awarded in recognition of academic performance, Pakistan.</div>
 </div>
-
 
 <h2>Graduate Coursework</h2>
 
@@ -115,3 +138,5 @@ redirect_from:
   <li>Fixed Point Theory</li>
   <li>Engineering Analysis</li>
 </ul>
+
+</div>
