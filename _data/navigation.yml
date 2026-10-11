@@ -28,8 +28,8 @@ main:
   - title: "News"
     url: /news/
 
-  - title: "Gallery"
-    url: /gallery/
+ # - title: "Gallery"
+  #  url: /gallery/
 
 #main:
   
