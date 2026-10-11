@@ -65,6 +65,21 @@ redirect_from:
 
 </div>
 
+<h2>Honors &amp; Awards</h2>
+
+<div class="cv-entry">
+  <div class="cv-role" style="font-weight: 400;">
+    <a href="https://www.hec.gov.pk/english/services/students/pmnls/Pages/default.aspx"
+       target="_blank" rel="noopener">
+      Prime Minister's Laptop Scheme
+    </a>
+  </div>
+  <div class="cv-org">
+    Awarded in recognition of academic performance, Pakistan
+  </div>
+</div>
+
+
 <h2>Graduate Coursework</h2>
 
 <div class="cv-group">Machine Learning and Data Science</div>
