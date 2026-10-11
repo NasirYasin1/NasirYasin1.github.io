@@ -96,11 +96,37 @@ redirect_from:
   <div class="cv-org"><a href="https://www.iiu.edu.pk/" target="_blank" rel="noopener noreferrer">International Islamic University Islamabad</a>, Islamabad, Pakistan</div>
 </div>
 
+
 <h2>Honors &amp; Awards</h2>
 
-<div class="cv-entry cv-award">
-  <a href="https://www.hec.gov.pk/english/services/students/pmnls/Pages/default.aspx" target="_blank" rel="noopener noreferrer">Prime Minister's Laptop Scheme</a>
-  <div class="cv-award-desc">Awarded in recognition of academic performance, Pakistan.</div>
+<div class="cv-entry">
+  <div class="cv-role" style="font-weight: 400;">
+    King's Scholarship
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-role" style="font-weight: 400;">
+    <a href="https://bk21four.nrf.re.kr/"
+       target="_blank" rel="noopener">
+      Brain Korea 21 FOUR (BK21 FOUR) Research Scholarship
+    </a>
+  </div>
+  <div class="cv-org">
+    Kyungpook National University, South Korea
+  </div>
+</div>
+
+<div class="cv-entry">
+  <div class="cv-role" style="font-weight: 400;">
+    <a href="https://www.hec.gov.pk/english/services/students/pmnls/Pages/default.aspx"
+       target="_blank" rel="noopener">
+      Prime Minister's Laptop Scheme
+    </a>
+  </div>
+  <div class="cv-org">
+    Government of Pakistan — Recognition of Academic Performance
+  </div>
 </div>
 
 <h2>Graduate Coursework</h2>
