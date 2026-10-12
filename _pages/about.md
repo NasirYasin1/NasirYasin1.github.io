@@ -16,6 +16,8 @@ In addition to research, I support undergraduate learning at ODU as a **Suppleme
 
 I’m always open to connecting with new people and learning about their work. If you’d like to discuss shared interests or explore a potential collaboration, feel free to reach out. I’m happy to chat about ideas, projects, or opportunities.
 
+
+{% include contact-form.html %}
 {% comment %}
 I’m always open to connecting with new people and learning about their work. If you’d like to discuss shared interests or explore a potential collaboration, feel free to reach out.
 {% endcomment %}
