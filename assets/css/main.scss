@@ -1,11 +1,12 @@
+
 ---
 ---
 
 /*
  * This file controls what is imported from /_sass
  *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * Note that the files are processed in the order they are imported.
+ * The first two lines are required by Jekyll.
  */
 
 @import
@@ -41,20 +42,21 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-/* Make the avatar image fully fill the circular frame (no inner gap) */
+
+/* Profile avatar */
 .sidebar .author__avatar,
 .author__avatar {
   width: 200px !important;
   height: 200px !important;
-  padding: 0 !important;          /* removes inner gap */
+  padding: 0 !important;
   border-radius: 50% !important;
   overflow: hidden !important;
-  border: 3px solid #e6e6e6 !important; /* optional ring */
+  border: 3px solid #e6e6e6 !important;
   background: transparent !important;
   margin: 0 auto 0.75rem !important;
 }
 
-/* If your avatar is wrapped in a link, make the link fill the circle */
+/* Avatar link */
 .sidebar .author__avatar a,
 .author__avatar a {
   display: block !important;
@@ -62,7 +64,7 @@
   height: 100% !important;
 }
 
-/* Force the image to fill the circle */
+/* Avatar image */
 .sidebar .author__avatar img,
 .author__avatar img,
 img.author__avatar {
@@ -70,12 +72,23 @@ img.author__avatar {
   height: 100% !important;
   max-width: none !important;
   object-fit: cover !important;
-  object-position: 50% 18% !important; /* move up if needed */
+  object-position: 50% 18% !important;
   margin: 0 !important;
   padding: 0 !important;
-  border: 0 !important;          /* removes inner border */
+  border: 0 !important;
   border-radius: 0 !important;
   display: block !important;
 }
 
+/* Wider academic profile sidebar */
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    width: 240px;
+    max-width: 240px;
+  }
 
+  .page,
+  .archive {
+    width: calc(100% - 270px);
+  }
+}
