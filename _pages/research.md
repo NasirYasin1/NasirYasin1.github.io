@@ -33,7 +33,8 @@ author_profile: true
 </style>
 
 <div class="research-page" markdown="0">
-
+  
+<h2>Research Expereince</h2>
 <div class="research-entry">
   <div class="research-head"><span class="research-title">Research Assistant, Applied Fluid Laboratory</span><span class="research-date">Apr 2022 – Aug 2023</span></div>
   <div class="research-org"><a href="https://en.knu.ac.kr/main/main.htm" target="_blank" rel="noopener noreferrer">Kyungpook National University</a>, Daegu, South Korea</div>
