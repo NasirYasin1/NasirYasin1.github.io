@@ -34,10 +34,6 @@ author_profile: true
 
 <div class="research-page" markdown="0">
 
-<h2>Research Interests</h2>
-
-<p class="research-interest">My research interests are in applied and computational mathematics, with an emphasis on numerical analysis, scientific computing, computational fluid dynamics, high-performance computing, and machine learning. I am interested in numerical methods for mathematical and physical models and their implementation in computational simulations.</p>
-
 <h2>Research Experience</h2>
 
 <div class="research-entry">
