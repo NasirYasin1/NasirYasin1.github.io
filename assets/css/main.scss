@@ -79,16 +79,3 @@ img.author__avatar {
   border-radius: 0 !important;
   display: block !important;
 }
-
-/* Wider academic profile sidebar */
-@media screen and (min-width: 1024px) {
-  .sidebar {
-    width: 240px;
-    max-width: 240px;
-  }
-
-  .page,
-  .archive {
-    width: calc(100% - 270px);
-  }
-}
