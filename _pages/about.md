@@ -13,7 +13,7 @@ My technical expertise includes **Python, MATLAB, R, C++, Fortran, CUDA, and Lin
 
 I hold an **M.S. in Applied and Computational Mathematics** from ODU, an **M.S. in Mathematics** from COMSATS University Islamabad, and a **B.S. in Mathematics** from International Islamic University Islamabad.
 
-Alongside my research, I serve as a **Supplemental Instruction (SI) Leader** at ODU, supporting undergraduate mathematics education through collaborative problem-solving sessions and tutoring.
+Alongside my research, I serve as a **Graduate Assistant** at ODU, teaching undergraduate mathematics courses and providing academic support through the Applied Calculus Lab, SMART Room, and online tutoring.
 
 I welcome opportunities for **academic collaboration, research discussions, and professional networking**.
 
