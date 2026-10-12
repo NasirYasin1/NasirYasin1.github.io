@@ -12,8 +12,7 @@ My technical background includes **Python, MATLAB, R, C++, and Fortran**, with e
 
 I hold an **M.S. in Applied and Computational Mathematics** from **ODU (2023–2025)** and previously earned an **M.S. in Mathematics** from **COMSATS University Islamabad** as well as a **B.S. in Mathematics** from the **International Islamic University Islamabad**.
 
-In addition to research, I support undergraduate learning at ODU as a **Supplemental Instruction (SI) Leader (Fall 2023–Present)**, where I facilitate problem-solving sessions and provide academic support through the **Applied Calculus Lab**, the **SMART Room**, and **online tutoring**. My technical background includes **Python, MATLAB, R, C++, and Fortran**, with experience in **CUDA** and Linux-based scientific computing workflows.
-
+In addition to research, I support undergraduate learning at ODU as a **Supplemental Instruction (SI) Leader (Fall 2023–Present)**, where I facilitate problem-solving sessions and provide academic support through the **Applied Calculus Lab**, the **SMART Room**, and **online tutoring**. 
 I’m always open to connecting with new people and learning about their work. If you’d like to discuss shared interests or explore a potential collaboration, feel free to reach out. I’m happy to chat about ideas, projects, or opportunities.
 
 
