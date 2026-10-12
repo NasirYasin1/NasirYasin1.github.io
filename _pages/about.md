@@ -1,9 +1,8 @@
-
 ---
 permalink: /
-title: "Welcome to Nasir's Website"
+title: "Welcome to Nasir's website"
 author_profile: true
-redirect_from:
+redirect_from: 
   - /about/
   - /about.html
 ---
