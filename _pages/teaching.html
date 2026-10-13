@@ -1,3 +1,4 @@
+
 ---
 layout: archive
 title: "Teaching"
@@ -8,53 +9,228 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  .tc h2 { margin-top: 1.6em; padding-bottom: .3em; border-bottom: 1px solid var(--global-border-color); }
-  .tc-entry { margin: 0 0 1.4em; }
-  .tc-head { display: flex; align-items: baseline; gap: 0 1.5em; }
-  .tc-role { flex: 1; font-weight: 700; }
-  .tc-date { flex: none; white-space: nowrap; color: var(--global-text-color-light); }
-  @media (max-width: 600px) { .tc-head { flex-direction: column; } }
-  .tc-org { font-style: italic; }
-  .tc-entry ul { margin: .4em 0 0 1.2em; }
-  .tc-entry li { margin-bottom: .25em; }
-  .tc-group { font-weight: 700; color: #2f7f93; margin: 1.2em 0 .4em; }
-  html[data-theme="dark"] .tc-group { color: #5cc6df; }
-  .tc-courses { list-style: none; margin: 0; padding: 0; }
-  .tc-courses li { display: flex; gap: 1em; padding: .45em 0; border-bottom: 1px solid var(--global-border-color); }
-  .tc-courses li:last-child { border-bottom: none; }
-  .tc-code { flex: none; width: 6.5em; font-weight: 700; }
+  .tc {
+    --tc-accent: #2f7f93;
+    --tc-muted: #657581;
+    --tc-rule: #dbe5e9;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+
+  /* Main section headings */
+  .tc h2 {
+    margin: 1.8em 0 .75em;
+    padding-bottom: .35em;
+    border-bottom: 1px solid var(--tc-rule);
+    font-size: 1.26em;
+    font-weight: 700;
+  }
+
+  .tc h2:first-child {
+    margin-top: .45em;
+  }
+
+  .tc h2::before {
+    content: "•";
+    color: var(--tc-accent);
+    font-size: .75em;
+    margin-right: .6em;
+    vertical-align: middle;
+  }
+
+  /* Indent content below main headings */
+  .tc > .tc-entry,
+  .tc > .tc-group,
+  .tc > .tc-courses {
+    margin-left: 20px;
+  }
+
+  /* Teaching entries */
+  .tc-entry {
+    margin-top: 0;
+    margin-bottom: 1.4em;
+  }
+
+  .tc-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .3em 1.3em;
+  }
+
+  .tc-role {
+    min-width: 0;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .tc-date {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    color: var(--tc-muted);
+    font-size: .92em;
+  }
+
+  /* Teaching institutions */
+  .tc-org {
+    margin-top: .15em;
+    font-style: italic;
+  }
+
+  /* Teaching responsibilities */
+  .tc-entry ul {
+    margin: .4em 0 0 1.3em;
+    padding: 0;
+  }
+
+  .tc-entry li {
+    margin-bottom: .25em;
+  }
+
+  /* Courses supported heading */
+  .tc-group {
+    margin-top: 1.2em;
+    margin-bottom: .5em;
+    color: var(--tc-accent);
+    font-weight: 700;
+  }
+
+  /* Course list */
+  .tc-courses {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1.1em;
+    padding: 0;
+  }
+
+  .tc-courses li {
+    display: flex;
+    gap: 1em;
+    padding: .45em 0;
+    border-bottom: 1px solid var(--tc-rule);
+  }
+
+  .tc-courses li:last-child {
+    border-bottom: none;
+  }
+
+  .tc-code {
+    flex: 0 0 6.5em;
+    font-weight: 700;
+  }
+
+  /* Dark mode */
+  html[data-theme="dark"] .tc {
+    --tc-accent: #5cc6df;
+    --tc-muted: #acb8bf;
+    --tc-rule: #48555c;
+  }
+
+  /* Mobile responsiveness */
+  @media (max-width: 700px) {
+    .tc-head {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: .1em;
+    }
+
+    .tc-date {
+      white-space: normal;
+    }
+
+    .tc-courses li {
+      gap: .6em;
+    }
+
+    .tc-code {
+      flex-basis: 5.5em;
+    }
+  }
 </style>
 
 <div class="tc" markdown="0">
 
-<h2></h2>
+<h2>Teaching Experience</h2>
 
 <div class="tc-entry">
-  <div class="tc-head"><span class="tc-role">Instructor, MATH 103: College Algebra</span><span class="tc-date">Fall 2026</span></div>
-  <div class="tc-org">Department of Mathematics and Statistics, Old Dominion University, Norfolk, VA, USA</div>
+  <div class="tc-head">
+    <span class="tc-role">
+      Instructor, MATH 103: College Algebra
+    </span>
+    <span class="tc-date">Fall 2026</span>
+  </div>
+  <div class="tc-org">
+    Department of Mathematics and Statistics,
+    Old Dominion University, Norfolk, VA, USA
+  </div>
   <ul>
-    <li>Sole instructor with full responsibility for lectures, assessments and grading.</li>
+    <li>
+      Sole instructor with full responsibility for
+      lectures, assessments, and grading.
+    </li>
   </ul>
 </div>
 
 <div class="tc-entry">
-  <div class="tc-head"><span class="tc-role">Graduate Teaching Assistant, Supplemental Instruction (SI) Leader</span><span class="tc-date">Fall 2023 – Spring 2026</span></div>
-  <div class="tc-org">Department of Mathematics and Statistics, Old Dominion University, Norfolk, VA, USA</div>
+  <div class="tc-head">
+    <span class="tc-role">
+      Graduate Teaching Assistant,
+      Supplemental Instruction (SI) Leader
+    </span>
+    <span class="tc-date">
+      Fall 2023 – Spring 2026
+    </span>
+  </div>
+  <div class="tc-org">
+    Department of Mathematics and Statistics,
+    Old Dominion University, Norfolk, VA, USA
+  </div>
   <ul>
-    <li>Lead Supplemental Instruction sessions built around structured problem solving.</li>
-    <li>Support students in the Applied Calculus Lab and the SMART Room.</li>
-    <li>Provide online tutoring for undergraduate mathematics courses.</li>
+    <li>
+      Lead Supplemental Instruction sessions
+      built around structured problem solving.
+    </li>
+    <li>
+      Support students in the Applied Calculus
+      Lab and the SMART Room.
+    </li>
+    <li>
+      Provide online tutoring for undergraduate
+      mathematics courses.
+    </li>
   </ul>
 </div>
 
 <div class="tc-group">Courses Supported</div>
+
 <ul class="tc-courses">
-  <li><span class="tc-code">MATH 212</span><span>Calculus</span></li>
-  <li><span class="tc-code">MATH 205</span><span>Calculus for Life Sciences</span></li>
-  <li><span class="tc-code">MATH 200</span><span>Calculus for Business and Economics</span></li>
-  <li><span class="tc-code">MATH 162</span><span>Precalculus</span></li>
-  <li><span class="tc-code">MATH 103</span><span>College Algebra</span></li>
-  <li><span class="tc-code">MATH 100</span><span>Introduction to Mathematics for Critical Thinking</span></li>
+  <li>
+    <span class="tc-code">MATH 212</span>
+    <span>Calculus</span>
+  </li>
+  <li>
+    <span class="tc-code">MATH 205</span>
+    <span>Calculus for Life Sciences</span>
+  </li>
+  <li>
+    <span class="tc-code">MATH 200</span>
+    <span>Calculus for Business and Economics</span>
+  </li>
+  <li>
+    <span class="tc-code">MATH 162</span>
+    <span>Precalculus</span>
+  </li>
+  <li>
+    <span class="tc-code">MATH 103</span>
+    <span>College Algebra</span>
+  </li>
+  <li>
+    <span class="tc-code">MATH 100</span>
+    <span>
+      Introduction to Mathematics for
+      Critical Thinking
+    </span>
+  </li>
 </ul>
 
 </div>
