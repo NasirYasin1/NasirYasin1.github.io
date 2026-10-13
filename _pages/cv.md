@@ -10,7 +10,13 @@ redirect_from:
 {% include base_path %}
 
 <style>
-  .cv { --cv-accent: #2f7f93; --cv-muted: #657581; --cv-rule: #dbe5e9; line-height: 1.6; }
+  .cv {
+    --cv-accent: #2f7f93;
+    --cv-muted: #657581;
+    --cv-rule: #dbe5e9;
+    line-height: 1.6;
+  }
+
   .cv h2 {
     margin: 1.8em 0 .75em;
     padding-bottom: .35em;
@@ -18,7 +24,11 @@ redirect_from:
     font-size: 1.26em;
     font-weight: 700;
   }
-  .cv h2:first-child { margin-top: .45em; }
+
+  .cv h2:first-child {
+    margin-top: .45em;
+  }
+
   .cv h2::before {
     content: "•";
     color: var(--cv-accent);
@@ -26,38 +36,133 @@ redirect_from:
     margin-right: .6em;
     vertical-align: middle;
   }
-  .cv-entry { margin: 0 0 1.25em; }
-  .cv-head { display: flex; align-items: baseline; justify-content: space-between; gap: .3em 1.3em; }
-  .cv-role { min-width: 0; font-weight: 700; line-height: 1.4; }
-  .cv-date { flex: 0 0 auto; white-space: nowrap; color: var(--cv-muted); font-size: .92em; }
-  .cv-concentration { margin-top: .15em; }
-  .cv-org { font-style: italic; }
-  .cv-org a { color: inherit; text-decoration: none; border-bottom: 1px solid #b9cbd1; }
-  .cv-org a:hover, .cv-org a:focus { color: var(--cv-accent); border-bottom-color: currentColor; }
-  .cv-entry ul { margin: .3em 0 0 1.3em; padding: 0; }
-  .cv-entry li { margin-bottom: .2em; }
-  .cv-award a { color: var(--cv-accent); text-decoration: none; border-bottom: 1px solid #b9cbd1; }
-  .cv-award a:hover, .cv-award a:focus { border-bottom-color: currentColor; }
-  .cv-award-desc { margin-top: .15em; color: var(--cv-muted); }
-  .cv-group { margin: 1.2em 0 .5em; color: var(--cv-accent); font-weight: 700; }
+
+  /* Indent content below each main heading */
+  .cv > .cv-entry,
+  .cv > .cv-group,
+  .cv > .cv-cols {
+    margin-left: 20px;
+  }
+
+  .cv-entry {
+    margin-top: 0;
+    margin-bottom: 1.25em;
+  }
+
+  .cv-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: .3em 1.3em;
+  }
+
+  .cv-role {
+    min-width: 0;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .cv-date {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    color: var(--cv-muted);
+    font-size: .92em;
+  }
+
+  .cv-concentration {
+    margin-top: .15em;
+  }
+
+  .cv-org {
+    font-style: italic;
+  }
+
+  .cv-org a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid #b9cbd1;
+  }
+
+  .cv-org a:hover,
+  .cv-org a:focus {
+    color: var(--cv-accent);
+    border-bottom-color: currentColor;
+  }
+
+  .cv-entry ul {
+    margin: .3em 0 0 1.3em;
+    padding: 0;
+  }
+
+  .cv-entry li {
+    margin-bottom: .2em;
+  }
+
+  .cv-award a {
+    color: var(--cv-accent);
+    text-decoration: none;
+    border-bottom: 1px solid #b9cbd1;
+  }
+
+  .cv-award a:hover,
+  .cv-award a:focus {
+    border-bottom-color: currentColor;
+  }
+
+  .cv-award-desc {
+    margin-top: .15em;
+    color: var(--cv-muted);
+  }
+
+  .cv-group {
+    margin-top: 1.2em;
+    margin-bottom: .5em;
+    color: var(--cv-accent);
+    font-weight: 700;
+  }
+
   .cv-cols {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 2.2em;
     row-gap: .25em;
     padding-left: 1.25em;
-    margin: 0 0 1.1em;
+    margin-top: 0;
+    margin-bottom: 1.1em;
   }
-  .cv-cols li { min-width: 0; overflow-wrap: break-word; }
-  html[data-theme="dark"] .cv { --cv-accent: #5cc6df; --cv-muted: #acb8bf; --cv-rule: #48555c; }
+
+  .cv-cols li {
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  /* Dark mode */
+  html[data-theme="dark"] .cv {
+    --cv-accent: #5cc6df;
+    --cv-muted: #acb8bf;
+    --cv-rule: #48555c;
+  }
+
+  /* Mobile responsiveness */
   @media (max-width: 700px) {
-    .cv-head { flex-direction: column; align-items: flex-start; gap: .1em; }
-    .cv-date { white-space: normal; }
-    .cv-cols { grid-template-columns: minmax(0, 1fr); }
+    .cv-head {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: .1em;
+    }
+
+    .cv-date {
+      white-space: normal;
+    }
+
+    .cv-cols {
+      grid-template-columns: minmax(0, 1fr);
+    }
   }
 </style>
 
 <div class="cv" markdown="0">
+
 
 <h2>Education</h2>
 
