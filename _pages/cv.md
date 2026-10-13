@@ -54,6 +54,13 @@ redirect_from:
     .cv-head { flex-direction: column; align-items: flex-start; gap: .1em; }
     .cv-date { white-space: normal; }
     .cv-cols { grid-template-columns: minmax(0, 1fr); }
+    
+/* Indent content below each CV section heading */
+.cv > .cv-entry,
+.cv > .cv-group,
+.cv > .cv-cols {
+  margin-left: 20px;
+}
   }
 </style>
 
