@@ -41,11 +41,11 @@ author_profile: true
     position: relative;
     list-style: none;
     margin: 0;
-    padding: 0 0 1.35em 2.3em;
+    padding: 0 0 1.0em 2.3em;
   }
 
   .news-timeline li + li {
-    padding-top: 1.35em;
+    padding-top: 1.4em;
   }
 
   .news-timeline li:not(:last-child) {
