@@ -164,18 +164,21 @@ redirect_from:
 <div class="cv" markdown="0">
 
 
-<div style="margin: 0 0 25px 20px;">
-  <a href="https://nasiryasin1.github.io/"
+
+<div style="margin: 20px 0 25px 20px;">
+
+  <a href="/files/Portfolio.pdf"
      target="_blank" rel="noopener noreferrer">
-    View My Portfolio
+    View One-Page Portfolio (PDF)
   </a>
 
-  <span style="margin: 0 12px;">|</span>
+  &nbsp; | &nbsp;
 
   <a href="/files/Nasir_Yasin_Detailed_CV.pdf"
      target="_blank" rel="noopener noreferrer">
-    View / Download Detailed CV (PDF)
+    View Detailed Academic CV (PDF)
   </a>
+
 </div>
 
 
