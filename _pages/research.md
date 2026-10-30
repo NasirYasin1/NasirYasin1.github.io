@@ -151,6 +151,56 @@ author_profile: true
 
   
 <h2>Research Experience</h2>
+
+<div class="research-entry">
+  <div class="research-head">
+    <span class="research-title">
+      Ph.D. Researcher
+    </span>
+    <span class="research-date">
+      Jan 2026 – Present
+    </span>
+  </div>
+  <div class="research-org">
+    <a href="https://www.odu.edu/">
+      Old Dominion University
+    </a>, Norfolk, VA, USA
+  </div>
+  <ul>
+    <li>
+      Currently working on
+      <em>Nonparametric Total Variation Regression
+      for Multivariate Process Data</em>.
+    </li>
+  </ul>
+</div>
+
+<div class="research-entry">
+  <div class="research-head">
+    <span class="research-title">
+      Ph.D. Researcher
+    </span>
+    <span class="research-date">
+      Jan 2024 – Dec 2025
+    </span>
+  </div>
+  <div class="research-org">
+    <a href="https://www.odu.edu/">
+      Old Dominion University
+    </a>, Norfolk, VA, USA
+  </div>
+  <ul>
+    <li>
+      Worked on
+      <em>Entropy and Gradient Stable Scheme
+      for Hyperbolic Burgers Equation</em>.
+    </li>
+    <li>
+      Developed and analyzed numerical schemes
+      for solving the Burgers equation.
+    </li>
+  </ul>
+</div>
 <div class="research-entry">
   <div class="research-head"><span class="research-title">Research Assistant, Applied Fluid Laboratory</span><span class="research-date">Apr 2022 – Aug 2023</span></div>
   <div class="research-org"><a href="https://en.knu.ac.kr/main/main.htm" target="_blank" rel="noopener noreferrer">Kyungpook National University</a>, Daegu, South Korea</div>
