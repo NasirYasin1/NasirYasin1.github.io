@@ -270,6 +270,7 @@ redirect_from:
   <li>Modern Statistical Methods for Big Data Analytics</li>
 </ul>
 
+
 <div class="cv-group">Numerical Analysis and Computational Modeling</div>
 <ul class="cv-cols">
   <li>Scientific Computing in Applied Mathematics</li>
@@ -278,11 +279,16 @@ redirect_from:
   <li>Numerical Solution of Differential Equations</li>
   <li>Numerical Linear Algebra</li>
   <li>Computational Linear Algebra</li>
+  <li>Parameter Estimation</li>
   <li>Perturbation Methods</li>
+  <li>Fluid Mechanics</li>
   <li>Viscous Fluid Flow</li>
+  <li>Turbomachinery</li>
+  <li>Micromachines</li>
   <li>Heat Transfer</li>
   <li>Elastodynamics</li>
 </ul>
+
 
 <div class="cv-group">Mathematical Analysis</div>
 <ul class="cv-cols">
