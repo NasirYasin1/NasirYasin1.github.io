@@ -158,7 +158,7 @@ author_profile: true
   <span class="news-text">
     Attended the <strong>2026 Annual Meeting
     of the American Statistical Association
-    (ASA), Virginia Chapter</strong>, themed
+    (ASA), Virginia Chapter</strong>,
     <em>“Statistics in an AI-Driven World:
     Building Knowledge, Community, and Impact”</em>,
     held on October 30, 2026, at
